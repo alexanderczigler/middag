@@ -5,41 +5,39 @@
   const { recipe } = data;
 </script>
 
-<main>
-  <h1>{recipe.title}</h1>
+<h1>{recipe.title}</h1>
 
-  <h2>Ingredienser</h2>
+<h2>Ingredienser</h2>
+<ul>
+  {#each recipe.ingredients as ingredient}
+    <li>{ingredient.quantity} {ingredient.unit} {ingredient.name}</li>
+  {/each}
+</ul>
+
+{#if recipe.pantry}
+  <h3>Från skafferiet</h3>
   <ul>
-    {#each recipe.ingredients as ingredient}
-      <li>{ingredient.quantity} {ingredient.unit} {ingredient.name}</li>
+    {#each recipe.pantry as item}
+      <li>{item}</li>
     {/each}
   </ul>
+{/if}
 
-  {#if recipe.pantry}
-    <h3>Från skafferiet</h3>
-    <ul>
-      {#each recipe.pantry as item}
-        <li>{item}</li>
-      {/each}
-    </ul>
-  {/if}
-
-  {#if recipe.sides}
-    <h3>Passande tillbehör</h3>
-    <ul>
-      {#each recipe.sides as side}
-        <li>{side}</li>
-      {/each}
-    </ul>
-  {/if}
-
-  <h2>Instruktioner</h2>
-  <ol>
-    {#each recipe.instructions as step}
-      <li>{step}</li>
+{#if recipe.sides}
+  <h3>Passande tillbehör</h3>
+  <ul>
+    {#each recipe.sides as side}
+      <li>{side}</li>
     {/each}
-  </ol>
-</main>
+  </ul>
+{/if}
+
+<h2>Instruktioner</h2>
+<ol>
+  {#each recipe.instructions as step}
+    <li>{step}</li>
+  {/each}
+</ol>
 
 <style>
   ul {

@@ -5,21 +5,25 @@
   const { children } = $props();
 </script>
 
-<ul class="menu">
-  <li>
-    <a href="/" class:active={$page.url.pathname === '/'}>Meny</a>
-  </li>
-  <li>
-    <a href="/shoppingList" class:active={$page.url.pathname === '/shoppingList'}>Inköpslista</a>
-  </li>
-  <li>
-    <a href="/recipe" class:active={$page.url.pathname.startsWith('/recipe')}>Recept</a>
-  </li>
-</ul>
+<main>
+  <ul class="menu">
+    <li>
+      <a href="/" class:active={$page.url.pathname === '/'}>Meny</a>
+    </li>
+    <li>
+      <a href="/shoppingList" class:active={$page.url.pathname === '/shoppingList'}>Inköpslista</a>
+    </li>
+    <li>
+      <a href="/recipe" class:active={$page.url.pathname.startsWith('/recipe')}>Recept</a>
+    </li>
+  </ul>
 
-<hr />
+  <hr />
 
-{@render children()}
+  <content>
+    {@render children()}
+  </content>
+</main>
 
 <style>
   ul.menu {

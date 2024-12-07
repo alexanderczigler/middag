@@ -4,18 +4,16 @@
   export let data: PageData; // Data från load-funktionen
 </script>
 
-<main>
-  <h1>Receptsamling</h1>
-  {#if data.recipes && data.recipes.length > 0}
-    <ul class="m-10">
-      {#each data.recipes as recipe}
-        <li>- <a href={`/recipe/${recipe.slug}`}>{recipe.title}</a></li>
-      {/each}
-    </ul>
-  {:else}
-    <p>No recipes found.</p>
-  {/if}
-</main>
+<h1>Receptsamling</h1>
+{#if data.recipes && data.recipes.length > 0}
+  <ul class="m-10">
+    {#each data.recipes as recipe}
+      <li>- <a href={`/recipe/${recipe.slug}`}>{recipe.title}</a></li>
+    {/each}
+  </ul>
+{:else}
+  <p>No recipes found.</p>
+{/if}
 
 <style>
   ul {
