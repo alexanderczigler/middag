@@ -8,7 +8,11 @@
     "lint": "npm run lint:cv",
     "lint:cv": "cd apps/cv && npm run lint"
   },
-  "keywords": [],
+  "keywords": [
+    "meal planner",
+    "recipe collection",
+    "shopping list generator"
+  ],
   "author": "Alexander Czigler",
   "license": "ISC",
   "description": "Menu monorepo",
