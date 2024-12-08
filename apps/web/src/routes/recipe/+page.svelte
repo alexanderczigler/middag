@@ -1,7 +1,7 @@
 <script lang="ts">
   import type { PageData } from './$types';
 
-  export let data: PageData; // Data från load-funktionen
+  export let data: PageData;
 </script>
 
 <h1>Receptsamling</h1>

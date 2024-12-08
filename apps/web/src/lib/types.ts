@@ -14,3 +14,7 @@ export type Ingredient = {
 };
 
 export type Unit = 'dl' | 'krm' | 'msk' | 'g' | 'nypa' | 'tsk';
+
+export type Menu = {
+  [date: string]: string;
+};
