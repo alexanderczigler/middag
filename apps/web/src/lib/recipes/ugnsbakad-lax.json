@@ -1,0 +1,33 @@
+{
+  "ingredients": [
+    {
+      "name": "Lax",
+      "quantity": 400,
+      "unit": "g"
+    },
+    {
+      "name": "Rotfrukter",
+      "quantity": 500,
+      "unit": "g"
+    },
+    {
+      "name": "Creme Fraiche",
+      "quantity": 2.5,
+      "unit": "dl"
+    }
+  ],
+  "instructions": [
+    "Sätt ugnen på 225 grader.",
+    "Skär rotfrukterna i mindre bitar.",
+    "Lägg rotfrukter och fisk på en ugnsplåt. Pensla med olja. Krydda med salt och citronpeppar.",
+    "Grädda i ugnen i 35-45 minuter.",
+    "Blanda creme fraiche med citronpeppar och salt och servera."
+  ],
+  "title": "Ugnsbakad lax",
+  "sides": [],
+  "pantry": [
+    "olja",
+    "salt",
+    "citronpeppar"
+  ]
+}
