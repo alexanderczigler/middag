@@ -3,7 +3,7 @@
     {
       "name": "Kryddmix Tikka Masala",
       "quantity": 1,
-      "unit": "pcs"
+      "unit": "förp"
     },
     {
       "name": "Strimlad kyckling",
@@ -14,22 +14,19 @@
       "name": "Creme Fraiche",
       "quantity": 2,
       "unit": "dl"
-    },
-    {
-      "name": "Ris",
-      "quantity": 3,
-      "unit": "dl"
     }
   ],
   "instructions": [
-    "Koka riset",
-    "Fräs kycklingen i smör eller neutral olja tills den börjar bli klar",
-    "Tillsätt kryddmixen och 1 dl vatten, rör runt och stek ett par minuter till",
-    "Blanda i creme fraiche, rör runt och stek några minuter till"
+    "Förbered ris.",
+    "Fräs kycklingen i smör eller neutral olja tills den börjar bli klar.",
+    "Tillsätt kryddmixen och 1 dl vatten, rör runt och stek ett par minuter till.",
+    "Blanda i creme fraiche, rör runt och stek några minuter till."
   ],
   "title": "Chicken Tikka Masala",
   "sides": [
     "naan",
-    "raita"
+    "raita",
+    "ris",
+    "neutral olja"
   ]
 }
