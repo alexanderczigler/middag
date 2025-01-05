@@ -1,0 +1,74 @@
+{
+  "title": "Caesarsallad",
+  "ingredients": [
+    {
+      "name": "Romansallad",
+      "quantity": 1,
+      "unit": "st"
+    },
+    {
+      "name": "Färsk kycklingfilé",
+      "quantity": 300,
+      "unit": "g"
+    },
+    {
+      "name": "Bacon",
+      "quantity": 140,
+      "unit": "g"
+    },
+    {
+      "name": "Ägg",
+      "quantity": 1,
+      "unit": "st"
+    },
+    {
+      "name": "Vitlök",
+      "quantity": 1,
+      "unit": "klyfta"
+    },
+    {
+      "name": "Rödvinsvinäger",
+      "quantity": 2,
+      "unit": "msk"
+    },
+    {
+      "name": "Grädde",
+      "quantity": 2,
+      "unit": "msk"
+    },
+    {
+      "name": "Sardeller",
+      "quantity": 30,
+      "unit": "g"
+    },
+    {
+      "name": "Parmesanost",
+      "quantity": 25,
+      "unit": "g"
+    },
+    {
+      "name": "Olivolja",
+      "quantity": 0.5,
+      "unit": "dl"
+    },
+    {
+      "name": "Rapsolja",
+      "quantity": 0.5,
+      "unit": "dl"
+    }
+  ],
+  "instructions": [
+    "Förbered dressingen: Blanda äggula, pressad vitlök, rödvinsvinäger, grädde och finhackade sardeller i en skål. Tillsätt olivolja och rapsolja lite i taget under ständig vispning tills dressingen tjocknar. Rör ner riven parmesanost och smaka av med salt och peppar.",
+    "Stek baconet knaprigt i en panna och låt rinna av på hushållspapper.",
+    "Krydda kycklingfiléerna med salt och peppar. Stek dem tills de är genomstekta och har en gyllenbrun yta. Låt vila några minuter och skär sedan i skivor.",
+    "Skölj romansalladen och riv i mindre bitar. Lägg salladen på ett stort fat eller i en skål.",
+    "Toppa salladen med kycklingskivor, bacon och krutonger. Ringla över dressingen och blanda försiktigt."
+  ],
+  "sides": [
+    "krutonger"
+  ],
+  "pantry": [
+    "salt",
+    "svartpeppar"
+  ]
+}

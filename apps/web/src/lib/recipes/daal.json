@@ -1,0 +1,37 @@
+{
+  "ingredients": [
+    {
+      "name": "Kryddmix Daal",
+      "quantity": 1,
+      "unit": "förp"
+    },
+    {
+      "name": "Röda linser",
+      "quantity": 3,
+      "unit": "dl"
+    },
+    {
+      "name": "Krossade tomater",
+      "quantity": 390,
+      "unit": "g"
+    },
+    {
+      "name": "Kokosmjölk",
+      "quantity": 400,
+      "unit": "ml"
+    }
+  ],
+  "instructions": [
+    "Förbered ris.",
+    "Skölj linserna noga. Fräs linserna tillsammans med kryddmixen och olja i någon minut.",
+    "Tillsätt övriga ingredienser och låt småkoka i 20-30 minuter.",
+    "Servera med ris och raita."
+  ],
+  "title": "Daal",
+  "sides": [
+    "naan",
+    "raita",
+    "ris",
+    "neutral olja"
+  ]
+}
