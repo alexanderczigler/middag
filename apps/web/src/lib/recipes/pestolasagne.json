@@ -1,0 +1,83 @@
+{
+  "title": "Vegetarisk lasagne med keso och pesto",
+  "ingredients": [
+    {
+      "name": "Gul lök",
+      "quantity": 1,
+      "unit": "st"
+    },
+    {
+      "name": "Zucchini",
+      "quantity": 1,
+      "unit": "st"
+    },
+    {
+      "name": "Krossade tomater",
+      "quantity": 500,
+      "unit": "g"
+    },
+    {
+      "name": "Basilika, torkad",
+      "quantity": 1,
+      "unit": "msk"
+    },
+    {
+      "name": "Salt",
+      "quantity": 1,
+      "unit": "krm"
+    },
+    {
+      "name": "Svartpeppar",
+      "quantity": 1,
+      "unit": "krm"
+    },
+    {
+      "name": "Riven ost",
+      "quantity": 2,
+      "unit": "dl"
+    },
+    {
+      "name": "Keso",
+      "quantity": 750,
+      "unit": "g"
+    },
+    {
+      "name": "Pesto",
+      "quantity": 0.75,
+      "unit": "dl"
+    },
+    {
+      "name": "Lasagneplattor",
+      "quantity": 400,
+      "unit": "g"
+    },
+    {
+      "name": "Körsbärstomater",
+      "quantity": 100,
+      "unit": "g"
+    },
+    {
+      "name": "Gurka",
+      "quantity": 1,
+      "unit": "st"
+    }
+  ],
+  "instructions": [
+    "Sätt ugnen på 200 grader.",
+    "Finhacka löken och tärna zucchinin.",
+    "Hetta upp rapsolja i en stekpanna och fräs lök och zucchini i några minuter.",
+    "Tillsätt basilika, salt, svartpeppar och krossade tomater (spara ca 1 dl till toppingen). Låt sjuda i några minuter.",
+    "Grovriv osten och blanda med keso och pesto i en skål.",
+    "Ringla lite rapsolja i en ugnsform och lägg ett lager lasagneplattor i botten.",
+    "Varva tomatröra, oströra och lasagneplattor tills ingredienserna är slut. Avsluta med ett lager lasagneplattor.",
+    "Toppa med de sparade krossade tomaterna, halverade körsbärstomater och resten av den rivna osten. Strö över lite basilika.",
+    "Grädda i ugnen i ca 20 minuter tills lasagnen är gyllene och bubblig.",
+    "Skär gurkan i tärningar och servera som tillbehör."
+  ],
+  "sides": [
+    "Tärnad gurka"
+  ],
+  "pantry": [
+    "Rapsolja"
+  ]
+}

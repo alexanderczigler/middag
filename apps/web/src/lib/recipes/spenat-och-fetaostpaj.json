@@ -1,0 +1,64 @@
+{
+  "title": "Paj med spenat, feta och soltorkade tomater",
+  "ingredients": [
+    {
+      "name": "Pajdeg",
+      "quantity": 1,
+      "unit": "förp"
+    },
+    {
+      "name": "Ägg",
+      "quantity": 4,
+      "unit": "st"
+    },
+    {
+      "name": "Grädde",
+      "quantity": 2,
+      "unit": "dl"
+    },
+    {
+      "name": "Riven ost",
+      "quantity": 2,
+      "unit": "dl"
+    },
+    {
+      "name": "Fetaost",
+      "quantity": 150,
+      "unit": "g"
+    },
+    {
+      "name": "Soltorkade tomater",
+      "quantity": 8,
+      "unit": "st"
+    },
+    {
+      "name": "Babyspenat",
+      "quantity": 65,
+      "unit": "g"
+    },
+    {
+      "name": "Pinjenötter",
+      "quantity": 0.5,
+      "unit": "förp"
+    }
+  ],
+  "instructions": [
+    "Sätt ugnen på 200 grader.",
+    "Klä en pajform med pajdegen och nagga botten med en gaffel. Förgrädda pajskalet i 10–15 minuter.",
+    "Vispa samman ägg och grädde. Salta och peppra efter smak. Tillsätt den rivna osten och blanda väl.",
+    "Hacka de soltorkade tomaterna.",
+    "Lägg babyspenat, hackade soltorkade tomater och smulad fetaost i det förgräddade pajskalet.",
+    "Häll över ägg- och gräddblandningen så att den täcker fyllningen.",
+    "Strö pinjenötter över pajen.",
+    "Grädda i ugnen i 30–40 minuter, eller tills pajen är gyllene och genomgräddad.",
+    "Servera gärna med färsk basilika och en sallad vid sidan av."
+  ],
+  "sides": [
+    "Färsk basilika",
+    "Sallad"
+  ],
+  "pantry": [
+    "Salt",
+    "Svartpeppar"
+  ]
+}
