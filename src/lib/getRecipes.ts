@@ -1,4 +1,4 @@
-import type { Recipe } from './types';
+import type { Recipe } from './types/recipe';
 
 export async function getRecipes(): Promise<Recipe[]> {
   const modules = import.meta.glob('/src/lib/recipes/*.json') as Record<
