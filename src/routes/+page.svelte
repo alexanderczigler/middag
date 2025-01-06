@@ -1,5 +1,4 @@
 <script lang="ts">
-  import type { Recipe } from '$lib/types/recipe';
   import type { PageData } from './$types';
 
   export let data: PageData;
