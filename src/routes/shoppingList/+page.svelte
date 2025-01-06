@@ -5,10 +5,25 @@
   export let data: PageData;
   const ingredients = data.ingredients as Ingredient[];
 
-  // Lokal state för avkryssade ingredienser
+  // Lokal state för avkryssade ingredienser i inköpslistan
   let checkedItems: Set<string> = new Set();
 
-  // Funktion för att toggla avkryssningsstatus
+  // "Alltid hemma"-ingredienser
+  const alwaysAtHome = [
+    'salt',
+    'peppar',
+    'olivolja',
+    'socker',
+    'mjöl',
+    'jasminris',
+    'äpplen',
+    'bananer',
+    'duschtvål',
+    'schampo',
+    'kleenex'
+  ];
+
+  // Funktion för att toggla avkryssning
   function toggleChecked(itemName: string) {
     if (checkedItems.has(itemName)) {
       checkedItems.delete(itemName);
@@ -21,16 +36,12 @@
 <h1>Inköpslista</h1>
 
 {#if ingredients.length > 0}
-  <ul>
+  <ul class="shopping-list">
     {#each ingredients as { name, quantity, unit }}
-      <li>
+      <li class="shopping-item">
         <label>
           <input type="checkbox" on:change={() => toggleChecked(name)} />
-          <span
-            style="text-decoration: {checkedItems.has(name)
-              ? 'line-through'
-              : 'none'}; color: {checkedItems.has(name) ? 'gray' : 'inherit'};"
-          >
+          <span class:checked={checkedItems.has(name)}>
             {quantity}
             {unit}
             {name}
@@ -42,3 +53,10 @@
 {:else}
   <p>Inga ingredienser hittades för veckomenyn.</p>
 {/if}
+
+<h2>Alltid hemma</h2>
+<ul class="always-home-list">
+  {#each alwaysAtHome as item}
+    <li class="always-home-item">{item}</li>
+  {/each}
+</ul>
