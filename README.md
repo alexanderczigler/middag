@@ -1,2 +1,23 @@
-# menu
-Recipe collection + weekly menu planner + grocery shopping list generator
+# Middag
+
+TLDR; Self-hostable recipe collection, weekly dinner planner and grocery shopping list generator.
+
+> 💬 "Middag" means dinner in Swedish.
+
+For the longest time, I have been planning my weekly dinner menu and grocery shopping in Google Sheets. I started working on this project because I wanted a simple way to collect my family's favourite recipes and keep them close to where we have our weekly dinner menu planned. In addition to this, I thought it would be nice to also get an automatic grocery shopping list generated from the planned menu.
+
+The dinner menu is hard coded in `./src/getMenu.ts`. So there is really little magic going on.
+
+If you want to use it, feel free to fork the project. A tip is to host it in GitHub Pages, Vercel or similar.
+
+## Running
+
+```shell
+nvm install && npm use
+npm install
+npm run dev -- --open
+```
+
+## Recipes
+
+When you have modified the recipe collection, run `npm run generate` to update the Recipe type.
