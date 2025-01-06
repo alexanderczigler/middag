@@ -11,17 +11,19 @@
   // "Alltid hemma"-ingredienser
   const alwaysAtHome = [
     'salt',
-    'peppar',
+    'svartpeppar',
     'olivolja',
     'socker',
     'mjöl',
     'jasminris',
-    'äpplen',
-    'bananer',
-    'duschtvål',
-    'schampo',
-    'kleenex'
-  ];
+    'rapsolja',
+    'pasta',
+    'sojasås',
+    'balsamvinäger',
+    'äppelcidervinäger',
+    'vitvinsvinäger',
+    'rödvinsvinäger'
+  ].sort();
 
   // Funktion för att toggla avkryssning
   function toggleChecked(itemName: string) {
@@ -35,6 +37,7 @@
 
 <h1>Inköpslista</h1>
 
+<h2>Recept</h2>
 {#if ingredients.length > 0}
   <ul class="shopping-list">
     {#each ingredients as { name, quantity, unit }}
@@ -42,9 +45,9 @@
         <label>
           <input type="checkbox" on:change={() => toggleChecked(name)} />
           <span class:checked={checkedItems.has(name)}>
-            {quantity}
-            {unit}
             {name}
+            ({quantity}
+            {unit})
           </span>
         </label>
       </li>
@@ -54,9 +57,20 @@
   <p>Inga ingredienser hittades för veckomenyn.</p>
 {/if}
 
-<h2>Alltid hemma</h2>
+<h2>Skafferi</h2>
 <ul class="always-home-list">
   {#each alwaysAtHome as item}
-    <li class="always-home-item">{item}</li>
+    <li class="always-home-item">
+      <label>
+        <input type="checkbox" on:change={() => toggleChecked(item)} />
+        {item}
+      </label>
+    </li>
   {/each}
 </ul>
+
+<style>
+  .always-home-list {
+    text-transform: capitalize;
+  }
+</style>

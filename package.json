@@ -44,5 +44,8 @@
     "shopping list generator"
   ],
   "author": "Alexander Czigler",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@fontsource/nunito": "^5.1.1"
+  }
 }

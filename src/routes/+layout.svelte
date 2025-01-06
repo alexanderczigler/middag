@@ -6,7 +6,7 @@
 </script>
 
 <main>
-  <ul class="menu">
+  <ul class="menu m-0">
     <li>
       <a href="/" class:active={$page.url.pathname === '/'}>Meny</a>
     </li>
@@ -17,8 +17,6 @@
       <a href="/recipe" class:active={$page.url.pathname.startsWith('/recipe')}>Recept</a>
     </li>
   </ul>
-
-  <hr />
 
   <content>
     {@render children()}
@@ -33,6 +31,7 @@
     justify-content: space-evenly;
     align-items: baseline;
     align-content: stretch;
+    background-color: #efefef;
   }
 
   ul.menu li {

@@ -9,8 +9,8 @@
 
 <h2>Ingredienser</h2>
 <ul>
-  {#each recipe.ingredients as ingredient}
-    <li>{ingredient.quantity} {ingredient.unit} {ingredient.name}</li>
+  {#each recipe.ingredients as { name, quantity, unit }}
+    <li>{name} ({quantity} {unit})</li>
   {/each}
 </ul>
 

@@ -12,5 +12,5 @@ export type Unit =
   | 'l' // Liter
   | 'förp' // Förpackning
   | 'pkt' // Paket
-  | 'klyfta' // För t.ex. vitlök eller citron
+  | 'klyftor' // För t.ex. vitlök eller citron
   | 'skiva'; // För t.ex. bröd eller ost
