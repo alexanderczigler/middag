@@ -16,10 +16,12 @@
 <h1>Meny</h1>
 
 <ul>
-  {#each upcomingRecipes as { date, recipe }}
-    <li>
-      <strong>{date}:</strong>
-      <a href={`/recipe/${recipe.slug}`}>{recipe.title}</a>
-    </li>
+  {#each upcomingRecipes as { date, recipe }: { date: string, recipe: Recipe }}
+    {#if recipe}
+      <li>
+        <strong>{date}:</strong>
+        <a href={`/recipe/${recipe.slug}`}>{recipe.title}</a>
+      </li>
+    {/if}
   {/each}
 </ul>
