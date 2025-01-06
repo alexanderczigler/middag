@@ -1,6 +1,10 @@
-import menu from '/src/lib/menu.json';
-import type { Menu } from './types';
+import type { Menu } from './types/menu';
 
-export async function getMenu(): Promise<Menu> {
-  return menu as Menu;
+export function getMenu(): Menu {
+  return {
+    '2025-01-06': {
+      lunch: 'daal',
+      dinner: 'pasta-pesto'
+    }
+  };
 }
