@@ -1,41 +1,20 @@
-# sv
+# Middag
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+TLDR; Recipe collection + weekly dinner planner + grocery shopping list generator.
 
-## Creating a project
+I used to plan my weekly grocery shopping in Google Sheets. I started working on this because I wanted a simple way to collect my family's favourite recipes and keep them close to where we have our weekly dinner menu planned. In addition to this, I thought it would be nice to also get an automatic grocery shopping list generated from the planned menu.
 
-If you're seeing this, you've probably already done this step. Congrats!
+The dinner menu is hard coded in `./src/getMenu.ts`. So there is really little magic going on.
 
-```bash
-# create a new project in the current directory
-npx sv create
+If you want to use it, feel free to fork the project. A tip is to host it in GitHub Pages, Vercel or similar.
 
-# create a new project in my-app
-npx sv create my-app
-```
+## Running
 
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
+```shell
+nvm install && npm use
+npm install
 npm run dev -- --open
 ```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
 
 ## Recipes
 
