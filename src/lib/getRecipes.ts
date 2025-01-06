@@ -11,13 +11,12 @@ export async function getRecipes(): Promise<Recipe[]> {
   // Load each recipe found in the path.
   for (const path in modules) {
     const module = await modules[path]();
-    recipes.push(module.default);
+    const filename = path.split('/').pop()?.replace('.json', '') || '';
+    recipes.push({
+      ...module.default,
+      slug: module.default.slug || filename
+    });
   }
-
-  // Set slug from the recipe title.
-  recipes.forEach((recipe) => {
-    recipe.slug = recipe.slug || recipe.title.toLowerCase().replace(/ /g, '-');
-  });
 
   return recipes;
 }

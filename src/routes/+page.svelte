@@ -1,18 +1,25 @@
 <script lang="ts">
-  import type { Recipe } from '$lib/types';
+  import type { Recipe } from '$lib/types/recipe';
   import type { PageData } from './$types';
 
   export let data: PageData;
 
-  let todayRecipe: Recipe | undefined = undefined;
-
-  if (data.menu[data.date]) {
-    todayRecipe = data.recipes.find((recipe) => recipe.slug === data.menu[data.date]);
-  }
+  // Skapa en lista av kommande recept baserat på menyn
+  let upcomingRecipes = Object.entries(data.menu)
+    .map(([date, slug]) => {
+      const recipe = data.recipes.find((recipe) => recipe.slug === slug);
+      return { date, recipe };
+    })
+    .filter((item) => item.recipe); // Filtrera bort eventuella saknade recept
 </script>
 
-<h1>{data.date}</h1>
-{#if todayRecipe}
-  <h2>Dagens</h2>
-  <a href={`/recipe/${todayRecipe.slug}`}>{todayRecipe.title}</a>
-{/if}
+<h1>Meny</h1>
+
+<ul>
+  {#each upcomingRecipes as { date, recipe }}
+    <li>
+      <strong>{date}:</strong>
+      <a href={`/recipe/${recipe.slug}`}>{recipe.title}</a>
+    </li>
+  {/each}
+</ul>

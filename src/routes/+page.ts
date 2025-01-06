@@ -1,14 +1,10 @@
-import type { Menu, Recipe } from '$lib/types';
 import { getRecipes } from '$lib/getRecipes';
 import { getMenu } from '$lib/getMenu';
+import type { Menu } from '$lib/types/menu';
+import type { Recipe } from '$lib/types/recipe';
 
-export async function load({
-  params,
-  url
-}): Promise<{ date: string; menu: Menu; recipes: Recipe[] }> {
-  let date = url.searchParams.get('date') || new Date().toISOString().slice(0, 10);
-
+export async function load(): Promise<{ menu: Menu; recipes: Recipe[] }> {
   const recipes = await getRecipes();
   const menu = await getMenu();
-  return { date, menu, recipes };
+  return { menu, recipes };
 }
