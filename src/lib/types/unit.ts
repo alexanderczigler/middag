@@ -3,7 +3,7 @@ export type Unit =
   | 'krm' // Kryddmått
   | 'msk' // Matsked
   | 'g' // Gram
-  | 'nypa' // Nypa
+  | 'nypor' // Nypor
   | 'tsk' // Tesked
   | 'st' // Styck
   | 'kg' // Kilogram
@@ -13,4 +13,4 @@ export type Unit =
   | 'förp' // Förpackning
   | 'pkt' // Paket
   | 'klyftor' // För t.ex. vitlök eller citron
-  | 'skiva'; // För t.ex. bröd eller ost
+  | 'skivor'; // För t.ex. bröd eller ost
