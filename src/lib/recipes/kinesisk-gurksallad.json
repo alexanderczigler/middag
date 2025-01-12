@@ -1,0 +1,45 @@
+{
+  "title": "Gurksallad",
+  "ingredients": [
+    {
+      "name": "gurka",
+      "quantity": 1,
+      "unit": "st"
+    },
+    {
+      "name": "vitlök",
+      "quantity": 3,
+      "unit": "klyftor"
+    },
+    {
+      "name": "risvinäger",
+      "quantity": 1,
+      "unit": "msk"
+    },
+    {
+      "name": "ljus kinesisk soja",
+      "quantity": 1,
+      "unit": "msk"
+    },
+    {
+      "name": "sesamolja",
+      "quantity": 1,
+      "unit": "msk"
+    },
+    {
+      "name": "råsocker",
+      "quantity": 1,
+      "unit": "tsk"
+    },
+    {
+      "name": "chiliflakes",
+      "quantity": 1,
+      "unit": "nypor"
+    }
+  ],
+  "instructions": [
+    "Skär gurkan i bitar, gärna oregelbundet och i varierande storlek.",
+    "Blanda resterande ingredienser i en skål och vänd ner gurkan.",
+    "Servera som sidorätt eller förrätt."
+  ]
+}
