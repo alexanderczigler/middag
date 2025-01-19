@@ -1,0 +1,41 @@
+{
+  "title": "Tonfisksallad",
+  "ingredients": [
+    {
+      "name": "tonfisk",
+      "quantity": 2,
+      "unit": "förp"
+    },
+    {
+      "name": "mozzarella",
+      "quantity": 1,
+      "unit": "förp"
+    },
+    {
+      "name": "sallad",
+      "quantity": 1,
+      "unit": "förp"
+    },
+    {
+      "name": "körsbärstomater",
+      "quantity": 1,
+      "unit": "förp"
+    },
+    {
+      "name": "gurka",
+      "quantity": 1,
+      "unit": "st"
+    }
+  ],
+  "instructions": [
+    "Skölj salladen och lägg den i en stor skål.",
+    "Skär körsbärstomaterna i halvor och gurkan i skivor.",
+    "Bryt mozzarellan i mindre bitar och tillsätt i skålen.",
+    "Häll av tonfisken och blanda försiktigt ner den i salladen.",
+    "Servera direkt eller låt stå en stund i kylen för att smakerna ska sätta sig."
+  ],
+  "sides": [
+    "Gott bröd",
+    "En enkel dressing"
+  ]
+}
