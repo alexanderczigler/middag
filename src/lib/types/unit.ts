@@ -4,6 +4,7 @@ export type Unit =
   | 'msk' // Matsked
   | 'g' // Gram
   | 'nypor' // Nypor
+  | 'nävar'
   | 'tsk' // Tesked
   | 'st' // Styck
   | 'kg' // Kilogram
