@@ -35,7 +35,7 @@
   }
 </script>
 
-<h1>Inköpslista</h1>
+<h1>Veckohandling</h1>
 
 <h2>Recept</h2>
 {#if ingredients.length > 0}
