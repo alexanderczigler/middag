@@ -6,8 +6,8 @@ const MENU: Menu = {
   '2025-01-21': 'ugnsbakad-lax',
   '2025-01-22': 'tonfisksallad',
   '2025-01-23': 'pasta-pesto',
-  '2025-01-24': 'spenat-och-fetaostpaj',
-  '2025-01-25': 'grekisk-sallad'
+  '2025-01-25': 'spenat-och-fetaostpaj',
+  '2025-01-26': 'grekisk-sallad'
 };
 
 export function getMenu(from?: string): Menu {
