@@ -11,7 +11,8 @@
       <a href="/" class:active={$page.url.pathname === '/'}>Meny</a>
     </li>
     <li>
-      <a href="/shoppingList" class:active={$page.url.pathname === '/shoppingList'}>Inköpslista</a>
+      <a href="/shoppingList" class:active={$page.url.pathname === '/shoppingList'}>Veckohandling</a
+      >
     </li>
     <li>
       <a href="/recipe" class:active={$page.url.pathname.startsWith('/recipe')}>Recept</a>
