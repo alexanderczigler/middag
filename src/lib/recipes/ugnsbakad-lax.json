@@ -14,20 +14,44 @@
       "name": "Crème fraiche",
       "quantity": 2.5,
       "unit": "dl"
+    },
+    {
+      "name": "Pepparrot",
+      "quantity": 3,
+      "unit": "msk"
+    },
+    {
+      "name": "Senap",
+      "quantity": 1,
+      "unit": "tsk"
+    },
+    {
+      "name": "Citron",
+      "quantity": 1,
+      "unit": "klyftor"
+    },
+    {
+      "name": "Dill",
+      "quantity": 1,
+      "unit": "msk"
     }
   ],
   "instructions": [
     "Sätt ugnen på 225 grader.",
     "Skär rotfrukterna i mindre bitar.",
-    "Lägg rotfrukterna och laxen på en ugnsplåt. Pensla med olja och krydda med salt och citronpeppar.",
-    "Grädda i ugnen i 35–45 minuter tills rotfrukterna är mjuka och laxen är genomstekt.",
-    "Blanda crème fraiche med citronpeppar och salt. Servera som sås till laxen och rotfrukterna."
+    "Lägg rotfrukter och lax på en ugnsplåt. Pensla med olja och krydda med salt. Krydda lax med gurkmeja och krydda rotfrukterna med t.ex. timjan eller rosmarin.",
+    "Grädda i ugnen i 35–45 minuter tills laxen är genomstekt.",
+    "Sås: blanda crème fraiche med pepparrot, dill, senap, salt, peppar och saften från en citronklyfta.",
+    "Servera laxen med rotfrukterna och såsen."
   ],
   "title": "Ugnsbakad lax med rotfrukter",
   "sides": [],
   "pantry": [
     "olja",
     "salt",
-    "citronpeppar"
+    "citronpeppar",
+    "gurkmeja",
+    "timjan",
+    "rosmarin"
   ]
 }
