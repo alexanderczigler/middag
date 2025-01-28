@@ -3,19 +3,30 @@
 
   export let data: PageData;
 
-  // Skapa en lista av kommande recept baserat på menyn
-  let upcomingRecipes = Object.entries(data.menu)
+  const today = new Date().toISOString().split('T')[0];
+
+  const upcomingRecipes = Object.entries(data.menu)
     .map(([date, slug]) => {
       const recipe = data.recipes.find((recipe) => recipe.slug === slug);
       return { date, recipe };
     })
-    .filter((item) => item.recipe); // Filtrera bort eventuella saknade recept
+    .filter((item) => item.recipe);
+
+  const todayRecipe = upcomingRecipes.find((item) => item.date === today);
+  const otherRecipes = upcomingRecipes.filter((item) => item.date !== today);
 </script>
 
 <h1>Meny</h1>
 
+{#if todayRecipe}
+  <p>
+    Dagens: <a href={`/recipe/${todayRecipe.recipe?.slug}`}>{todayRecipe.recipe?.title}</a>.
+  </p>
+{/if}
+
+<h2>Planering</h2>
 <ul>
-  {#each upcomingRecipes as { date, recipe }: { date: string, recipe: Recipe }}
+  {#each otherRecipes as { date, recipe }: { date: string, recipe: Recipe }}
     {#if recipe}
       <li>
         <strong>{date}:</strong>
