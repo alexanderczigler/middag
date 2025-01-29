@@ -13,7 +13,7 @@
     .filter((item) => item.recipe);
 
   const todayRecipe = upcomingRecipes.find((item) => item.date === today);
-  const otherRecipes = upcomingRecipes.filter((item) => item.date !== today);
+  const otherRecipes = upcomingRecipes;
 </script>
 
 <h1>Meny</h1>
