@@ -14,13 +14,13 @@ export function getMenu(from?: string): Menu {
 	if (from) {
 		const fromDate = new Date(from);
 		const menu: Menu = {};
-		Object.entries(MENU).forEach(([date, recipe]) => {
+		for (const [date, recipe] of Object.entries(MENU)) {
 			if (new Date(date) >= fromDate) {
 				menu[date] = recipe;
 			}
-		});
+		}
 		return menu;
-	} else {
-		return MENU;
 	}
+
+	return MENU;
 }
