@@ -19,19 +19,28 @@
       "name": "Kokosmjölk",
       "quantity": 400,
       "unit": "ml"
+    },
+    {
+      "name": "Youghurt",
+      "quantity": 2,
+      "unit": "dl"
+    },
+    {
+      "name": "Kryddmix Raita",
+      "quantity": 1,
+      "unit": "förp"
     }
   ],
   "instructions": [
     "Förbered ris.",
     "Skölj linserna noga. Fräs linserna tillsammans med kryddmixen och olja i någon minut.",
     "Tillsätt övriga ingredienser och 2 dl vatten. Låt småkoka i 20-30 minuter.",
+    "Blanda youghurt med kryddmixen till raita.",
     "Servera med ris och raita."
   ],
   "title": "Daal på röda linser",
   "sides": [
     "naan",
-    "raita",
-    "ris",
-    "neutral olja"
+    "ris"
   ]
 }
