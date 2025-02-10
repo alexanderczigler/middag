@@ -1,26 +1,23 @@
-import type { Menu } from "./types/menu";
+import type { Menu } from './types/menu';
 
 const MENU: Menu = {
-	"2025-02-02": "tofu-stroganoff",
-	"2025-02-04": "mapu-tofu",
-	"2025-02-05": "daal",
-	"2025-02-06": "tonfisksallad",
-	"2025-02-07": "ugnsbakad-lax",
-	"2025-02-08": "pasta-tomatsås",
-	"2025-02-09": "färdig-risotto",
+  '2025-02-11': 'daal',
+  '2025-02-12': 'grekisk-sallad',
+  '2025-02-13': 'ugnsbakad-lax',
+  '2025-02-14': 'chicken-tikka-masala'
 };
 
 export function getMenu(from?: string): Menu {
-	if (from) {
-		const fromDate = new Date(from);
-		const menu: Menu = {};
-		for (const [date, recipe] of Object.entries(MENU)) {
-			if (new Date(date) >= fromDate) {
-				menu[date] = recipe;
-			}
-		}
-		return menu;
-	}
+  if (from) {
+    const fromDate = new Date(from);
+    const menu: Menu = {};
+    for (const [date, recipe] of Object.entries(MENU)) {
+      if (new Date(date) >= fromDate) {
+        menu[date] = recipe;
+      }
+    }
+    return menu;
+  }
 
-	return MENU;
+  return MENU;
 }
