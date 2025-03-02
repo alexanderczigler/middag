@@ -4,26 +4,10 @@
 
   export let data: PageData;
   const ingredients = data.ingredients as Ingredient[];
+  const pantry = data.pantry as string[];
 
   // Lokal state för avkryssade ingredienser i inköpslistan
   let checkedItems: Set<string> = new Set();
-
-  // "Alltid hemma"-ingredienser
-  const alwaysAtHome = [
-    'salt',
-    'svartpeppar',
-    'olivolja',
-    'socker',
-    'mjöl',
-    'jasminris',
-    'rapsolja',
-    'pasta',
-    'sojasås',
-    'balsamvinäger',
-    'äppelcidervinäger',
-    'vitvinsvinäger',
-    'rödvinsvinäger'
-  ].sort();
 
   // Funktion för att toggla avkryssning
   function toggleChecked(itemName: string) {
@@ -58,9 +42,9 @@
 {/if}
 
 <h2>Skafferi</h2>
-<ul class="always-home-list">
-  {#each alwaysAtHome as item}
-    <li class="always-home-item">
+<ul class="pantry">
+  {#each pantry as item}
+    <li class="pantry-item">
       <label>
         <input type="checkbox" on:change={() => toggleChecked(item)} />
         {item}
@@ -70,7 +54,7 @@
 </ul>
 
 <style>
-  .always-home-list {
+  .pantry {
     text-transform: capitalize;
   }
 </style>

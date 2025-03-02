@@ -4,8 +4,9 @@ import type { Menu } from '$lib/types/menu';
 import type { Ingredient } from '$lib/types/ingredient';
 
 export async function load({ url }): Promise<{
-  menu: Menu;
   ingredients: Ingredient[];
+  menu: Menu;
+  pantry: string[];
 }> {
   // Hämta query-parametern 'from' från URL:en
   const from: string = url.searchParams.get('from') || '';
@@ -25,20 +26,32 @@ export async function load({ url }): Promise<{
 
   // Sammanställ ingredienser
   const ingredients: Ingredient[] = [];
+  const pantry: string[] = [];
 
   plannedRecipes.forEach((recipe) => {
     recipe.ingredients.forEach(({ name, quantity, unit }) => {
-      const existingItem = ingredients.find((item) => item.name === name && item.unit === unit);
-      if (existingItem) {
-        existingItem.quantity += quantity;
+      const existingIngredient = ingredients.find(
+        (item) => item.name === name && item.unit === unit
+      );
+      if (existingIngredient) {
+        existingIngredient.quantity += quantity;
       } else {
         ingredients.push({ name, quantity, unit });
       }
+    });
+
+    recipe.pantry?.forEach((item) => {
+      if (pantry.includes(item.toLowerCase())) {
+        return;
+      }
+
+      pantry.push(item.toLowerCase());
     });
   });
 
   // Sortera ingredienserna alfabetiskt
   ingredients.sort((a, b) => a.name.localeCompare(b.name));
+  pantry.sort((a, b) => a.localeCompare(b));
 
-  return { menu, ingredients };
+  return { ingredients, menu, pantry };
 }
