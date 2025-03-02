@@ -5,6 +5,7 @@
   export let data: PageData;
   const ingredients = data.ingredients as Ingredient[];
   const pantry = data.pantry as string[];
+  const sides = data.sides as string[];
 
   // Lokal state för avkryssade ingredienser i inköpslistan
   let checkedItems: Set<string> = new Set();
@@ -40,6 +41,18 @@
 {:else}
   <p>Inga ingredienser hittades för veckomenyn.</p>
 {/if}
+
+<h2>Tillbehör</h2>
+<ul class="sides">
+  {#each sides as item}
+    <li class="sides-item">
+      <label>
+        <input type="checkbox" on:change={() => toggleChecked(item)} />
+        {item}
+      </label>
+    </li>
+  {/each}
+</ul>
 
 <h2>Skafferi</h2>
 <ul class="pantry">

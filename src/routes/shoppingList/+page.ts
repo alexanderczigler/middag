@@ -7,6 +7,7 @@ export async function load({ url }): Promise<{
   ingredients: Ingredient[];
   menu: Menu;
   pantry: string[];
+  sides: string[];
 }> {
   // Hämta query-parametern 'from' från URL:en
   const from: string = url.searchParams.get('from') || '';
@@ -27,6 +28,7 @@ export async function load({ url }): Promise<{
   // Sammanställ ingredienser
   const ingredients: Ingredient[] = [];
   const pantry: string[] = [];
+  const sides: string[] = [];
 
   plannedRecipes.forEach((recipe) => {
     recipe.ingredients.forEach(({ name, quantity, unit }) => {
@@ -47,11 +49,19 @@ export async function load({ url }): Promise<{
 
       pantry.push(item.toLowerCase());
     });
+
+    recipe.sides?.forEach((item) => {
+      if (sides.includes(item.toLowerCase())) {
+        return;
+      }
+
+      sides.push(item.toLowerCase());
+    });
   });
 
   // Sortera ingredienserna alfabetiskt
   ingredients.sort((a, b) => a.name.localeCompare(b.name));
   pantry.sort((a, b) => a.localeCompare(b));
 
-  return { ingredients, menu, pantry };
+  return { ingredients, menu, pantry, sides };
 }
