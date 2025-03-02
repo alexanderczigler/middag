@@ -3,28 +3,23 @@
   "ingredients": [
     {
       "name": "Fast potatis",
-      "quantity": 1,
+      "quantity": 1.8,
       "unit": "kg"
     },
     {
-      "name": "Gul lök",
-      "quantity": 1,
-      "unit": "st"
+      "name": "Vitlök",
+      "quantity": 3,
+      "unit": "klyftor"
     },
     {
       "name": "Grädde",
-      "quantity": 3,
+      "quantity": 2.5,
       "unit": "dl"
     },
     {
       "name": "Mjölk",
-      "quantity": 2,
+      "quantity": 5,
       "unit": "dl"
-    },
-    {
-      "name": "Vitlök",
-      "quantity": 1,
-      "unit": "klyftor"
     },
     {
       "name": "Riven ost",
@@ -40,6 +35,11 @@
       "name": "Smör",
       "quantity": 1,
       "unit": "msk"
+    },
+    {
+      "name": "Pepparbiff",
+      "quantity": 800,
+      "unit": "g"
     }
   ],
   "instructions": [
@@ -53,6 +53,10 @@
     "Stek köttet och servera med sparris och potatisgratängen."
   ],
   "sides": [
-    {}
+    ""
+  ],
+  "pantry": [
+    "Salt",
+    "Svartpeppar"
   ]
 }
