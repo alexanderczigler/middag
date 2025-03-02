@@ -1,9 +1,13 @@
 import type { Menu } from './types/menu';
 
 const MENU: Menu = {
-  '2025-02-25': 'grekisk-sallad',
-  '2025-03-01': 'mapu-tofu',
-  '2025-03-02': 'broccoligratäng'
+  '2025-03-03': 'mexicali',
+  '2025-03-04': 'chicken-tikka-masala',
+  '2025-03-05': 'laxinoa',
+  '2025-03-06': 'spenat-och-fetaostpaj',
+  '2025-03-07': 'pepparbiff',
+  '2025-03-08': 'tonfisksallad',
+  '2025-03-09': 'tofu-stroganoff'
 };
 
 export function getMenu(from?: string): Menu {
