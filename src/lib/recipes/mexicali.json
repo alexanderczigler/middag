@@ -1,0 +1,16 @@
+{
+  "title": "Mexicali",
+  "ingredients": [
+    {
+      "name": "Pulled oumph",
+      "quantity": 280,
+      "unit": "g"
+    }
+  ],
+  "instructions": [
+    "TODO"
+  ],
+  "sides": [
+    {}
+  ]
+}
