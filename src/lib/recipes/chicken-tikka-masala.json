@@ -31,11 +31,15 @@
     "Fräs kycklingen i smör eller neutral olja tills den börjar bli klar.",
     "Tillsätt kryddmixen och 1 dl vatten, rör runt och stek ett par minuter till.",
     "Blanda i crème fraiche, rör runt och stek några minuter till.",
-    "Blanda youghurt med kryddmixen till raita."
+    "Servera med ris och raita."
   ],
   "title": "Chicken Tikka Masala",
   "sides": [
-    "naan",
-    "ris"
+    "Naan",
+    "Raita",
+    "Youghurt"
+  ],
+  "pantry": [
+    "Ris"
   ]
 }
