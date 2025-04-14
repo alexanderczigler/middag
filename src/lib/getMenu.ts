@@ -1,13 +1,11 @@
 import type { Menu } from "./types/menu";
 
 const MENU: Menu = {
-	"2025-04-07": "pokebowl",
-	"2025-04-08": "broccoligratäng",
-	"2025-04-09": "sötpotatisbowl",
-	"2025-04-10": "spenat-och-fetaostpaj",
-	"2025-04-11": "ugnsbakad-lax",
-	"2025-04-12": "holy-caesar",
-	"2025-04-13": "chana-daal",
+	"2025-04-15": "holy-caesar",
+	"2025-04-16": "tonfisksallad",
+	"2025-04-17": "currykyckling",
+	"2025-04-18": "pokebowl",
+	"2025-04-21": "mexicali",
 };
 
 export function getMenu(from?: string): Menu {
