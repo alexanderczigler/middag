@@ -5,10 +5,48 @@
       "name": "Pulled oumph",
       "quantity": 280,
       "unit": "g"
+    },
+    {
+      "name": "Picklad rödlök",
+      "quantity": 100,
+      "unit": "g"
+    },
+    {
+      "name": "Avokado",
+      "quantity": 1,
+      "unit": "st"
+    },
+    {
+      "name": "Broccoli",
+      "quantity": 200,
+      "unit": "g"
+    },
+    {
+      "name": "Mango",
+      "quantity": 100,
+      "unit": "g"
+    },
+    {
+      "name": "Majschips",
+      "quantity": 0.5,
+      "unit": "förp"
+    },
+    {
+      "name": "Sallad",
+      "quantity": 1,
+      "unit": "st"
+    },
+    {
+      "name": "Lime",
+      "quantity": 1,
+      "unit": "st"
     }
   ],
   "instructions": [
     "TODO"
   ],
-  "sides": []
+  "sides": [],
+  "pantry": [
+    "Svartris"
+  ]
 }
