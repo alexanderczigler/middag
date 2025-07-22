@@ -1,0 +1,55 @@
+{
+  "ingredients": [
+    {
+      "name": "Röda linser",
+      "quantity": 2,
+      "unit": "dl"
+    },
+    {
+      "name": "Morot",
+      "quantity": 1,
+      "unit": "st"
+    },
+    {
+      "name": "Potatis",
+      "quantity": 1,
+      "unit": "st"
+    },
+    {
+      "name": "Gul lök",
+      "quantity": 1,
+      "unit": "st"
+    },
+    {
+      "name": "Vitlök",
+      "quantity": 1,
+      "unit": "klyftor"
+    },
+    {
+      "name": "Kryddmix Raita",
+      "quantity": 1,
+      "unit": "förp"
+    }
+  ],
+  "instructions": [
+    "Förbered ris enligt anvisningarna på förpackningen.",
+    "Skölj linserna noga.",
+    "Riv morot och tärna potatis, hacka lök och vitlök.",
+    "Fräs lök och vitlök i rapsolja tills de är mjuka.",
+    "Tillsätt övriga ingredienser och 4 dl vatten. Låt sjuda i 15-20 minuter tills allt är mjukt.",
+    "Rör ner kokosmjölk, dela upp den del av grytan som serveras till barnen.",
+    "Tillsätt salt och curry i den del som vuxna äter.",
+    "Servera med ris och gärna raita."
+  ],
+  "title": "Linsgryta med kokosmjölk",
+  "sides": [
+    "naan",
+    "raita"
+  ],
+  "pantry": [
+    "ris",
+    "rapsolja",
+    "salt",
+    "mild curry"
+  ]
+}
