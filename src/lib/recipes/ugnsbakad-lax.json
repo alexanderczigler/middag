@@ -34,15 +34,21 @@
       "name": "Dill",
       "quantity": 1,
       "unit": "msk"
+    },
+    {
+      "name": "Gröna ärtor",
+      "quantity": 2,
+      "unit": "dl"
     }
   ],
   "instructions": [
     "Sätt ugnen på 225 grader.",
     "Skär rotfrukterna i mindre bitar.",
     "Lägg rotfrukter och lax på en ugnsplåt. Pensla med olja och krydda med salt. Krydda lax med gurkmeja och krydda rotfrukterna med t.ex. timjan eller rosmarin.",
-    "Grädda i ugnen i 35–45 minuter tills laxen är genomstekt.",
+    "Grädda i ugnen ca 40 minuter tills laxen är genomstekt och rotfrukterna fått önskad färg.",
+    "Om frysta ärtor används, ångkoka dem i ett durkslag tills de tinat och är varma.",
     "Sås: blanda crème fraiche med pepparrot, dill, senap, salt, peppar och saften från en citronklyfta.",
-    "Servera laxen med rotfrukterna och såsen."
+    "Servera lax med rotfrukter, ärtor och sås."
   ],
   "title": "Ugnsbakad lax, rotfrukter och pepparrotsås",
   "sides": [],
@@ -52,6 +58,7 @@
     "citronpeppar",
     "gurkmeja",
     "timjan",
-    "rosmarin"
+    "rosmarin",
+    "citron"
   ]
 }
