@@ -38,10 +38,5 @@
     "Servera currykycklingen med kokt ris."
   ],
   "sides": [],
-  "pantry": [
-    "Ris",
-    "olivolja",
-    "Salt",
-    "Svartpeppar"
-  ]
+  "pantry": ["Ris", "olivolja", "Salt", "Svartpeppar"]
 }

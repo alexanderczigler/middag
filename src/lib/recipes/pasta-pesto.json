@@ -43,13 +43,6 @@
     "Blanda pastan med såsen och servera direkt.",
     "Toppa med riven parmesan och färsk basilika vid servering."
   ],
-  "sides": [
-    "Parmesan",
-    "Färsk basilika"
-  ],
-  "pantry": [
-    "olivolja",
-    "Salt",
-    "Svartpeppar"
-  ]
+  "sides": ["Parmesan", "Färsk basilika"],
+  "pantry": ["olivolja", "Salt", "Svartpeppar"]
 }

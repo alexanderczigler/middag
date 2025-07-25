@@ -130,12 +130,6 @@
     "När soppan börjar bli klar, pressa i saften från en halv apelsin.",
     "För bönaiolin: Mixa hela förpackningen vita bönor med majonnäsen och en rostad vitlöksklyfta tills slät. Smaka av med salt och peppar."
   ],
-  "sides": [
-    "Baguette"
-  ],
-  "pantry": [
-    "Olivolja",
-    "Salt",
-    "Svartpeppar"
-  ]
+  "sides": ["Baguette"],
+  "pantry": ["Olivolja", "Salt", "Svartpeppar"]
 }

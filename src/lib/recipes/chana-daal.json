@@ -52,13 +52,6 @@
     "Låt koka tills tomaterna är mjuka.",
     "Servera med ris och toppa med färsk basilika"
   ],
-  "sides": [
-    "Råris",
-    "Samosas"
-  ],
-  "pantry": [
-    "Smör",
-    "Pressad lime",
-    "Salt"
-  ]
+  "sides": ["Råris", "Samosas"],
+  "pantry": ["Smör", "Pressad lime", "Salt"]
 }

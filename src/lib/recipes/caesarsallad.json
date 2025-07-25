@@ -64,11 +64,6 @@
     "Skölj romansalladen och riv i mindre bitar. Lägg salladen på ett stort fat eller i en skål.",
     "Toppa salladen med kycklingskivor, bacon och krutonger. Ringla över dressingen och blanda försiktigt."
   ],
-  "sides": [
-    "krutonger"
-  ],
-  "pantry": [
-    "salt",
-    "svartpeppar"
-  ]
+  "sides": ["krutonger"],
+  "pantry": ["salt", "svartpeppar"]
 }

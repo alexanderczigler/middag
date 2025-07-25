@@ -52,10 +52,5 @@
     "Servera såsen med det kokta matvetet."
   ],
   "sides": [],
-  "pantry": [
-    "Matvete",
-    "Grönsaksbuljongtärning",
-    "olivolja",
-    "Salt"
-  ]
+  "pantry": ["Matvete", "Grönsaksbuljongtärning", "olivolja", "Salt"]
 }

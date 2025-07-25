@@ -89,12 +89,6 @@
     "Servera kycklingen med råris, tomat, valnötter och broccoli.",
     "Ringla över dressingen och blanda försiktigt."
   ],
-  "sides": [
-    "krutonger"
-  ],
-  "pantry": [
-    "salt",
-    "svartpeppar",
-    "Svartris"
-  ]
+  "sides": ["krutonger"],
+  "pantry": ["salt", "svartpeppar", "Svartris"]
 }

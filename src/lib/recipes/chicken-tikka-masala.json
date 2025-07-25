@@ -34,12 +34,6 @@
     "Servera med ris och raita."
   ],
   "title": "Chicken Tikka Masala",
-  "sides": [
-    "Naan",
-    "Raita",
-    "Youghurt"
-  ],
-  "pantry": [
-    "Ris"
-  ]
+  "sides": ["Naan", "Raita", "Youghurt"],
+  "pantry": ["Ris"]
 }

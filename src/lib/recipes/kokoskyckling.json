@@ -63,15 +63,6 @@
     "Koka ihop i 5–10 minuter tills kycklingen är genomstekt och grönsakerna är mjuka.",
     "Servera grytan med det kokta jasminriset."
   ],
-  "sides": [
-    "Friterade naanbröd"
-  ],
-  "pantry": [
-    "ris",
-    "olivolja",
-    "salt",
-    "svartpeppar",
-    "chiliflakes",
-    "sambal oelek"
-  ]
+  "sides": ["Friterade naanbröd"],
+  "pantry": ["ris", "olivolja", "salt", "svartpeppar", "chiliflakes", "sambal oelek"]
 }

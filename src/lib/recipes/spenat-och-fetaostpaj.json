@@ -53,13 +53,6 @@
     "Grädda i ugnen i 30–40 minuter, eller tills pajen är gyllene och genomgräddad.",
     "Servera gärna med färsk basilika och en sallad vid sidan av."
   ],
-  "sides": [
-    "Färsk basilika",
-    "Sallad"
-  ],
-  "pantry": [
-    "Salt",
-    "Svartpeppar",
-    "Muskotnöt"
-  ]
+  "sides": ["Färsk basilika", "Sallad"],
+  "pantry": ["Salt", "Svartpeppar", "Muskotnöt"]
 }
