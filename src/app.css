@@ -4,22 +4,22 @@
 @import 'tailwindcss/utilities';
 
 :root {
-	--font-sans: 'Nunito', sans-serif;
-	--background-color: #f5f5f5;
-	--text-color: #000000;
-	--text-meta-color: rgba(0, 77, 128, 0.6);
-	--h1-color: #004d80;
+  --font-sans: 'Nunito', sans-serif;
+  --background-color: #f5f5f5;
+  --text-color: #000000;
+  --text-meta-color: rgba(0, 77, 128, 0.6);
+  --h1-color: #004d80;
   --h2-color: #195e8c;
   --h3-color: #327099;
-	--link-color: #004d80;
-	--link-hover-color: #002e4d;
+  --link-color: #004d80;
+  --link-hover-color: #002e4d;
 }
 
 body {
-	background-color: var(--background-color);
-	color: var(--text-color);
-	font-family: var(--font-sans), sans-serif;
-	margin: 0 auto;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: var(--font-sans), sans-serif;
+  margin: 0 auto;
 }
 
 a {

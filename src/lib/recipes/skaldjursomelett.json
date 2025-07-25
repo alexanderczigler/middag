@@ -47,10 +47,5 @@
     "Låt omeletten ligga kvar i pannan i någon minut så att den blir genomvarm. Servera genast."
   ],
   "sides": [],
-  "pantry": [
-    "Olivolja",
-    "Smör",
-    "Salt",
-    "Svartpeppar"
-  ]
+  "pantry": ["Olivolja", "Smör", "Salt", "Svartpeppar"]
 }

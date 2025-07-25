@@ -42,11 +42,7 @@
       "unit": "st"
     }
   ],
-  "instructions": [
-    "TODO"
-  ],
+  "instructions": ["TODO"],
   "sides": [],
-  "pantry": [
-    "Svartris"
-  ]
+  "pantry": ["Svartris"]
 }

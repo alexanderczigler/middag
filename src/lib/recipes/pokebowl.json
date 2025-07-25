@@ -38,15 +38,6 @@
     "Koka riset enligt anvisningarna på förpackningen.",
     "Servera allt i en skål, toppa med picklad rödlök, sesamfrön och pressad lime."
   ],
-  "sides": [
-    "Råris"
-  ],
-  "pantry": [
-    "Sojasås",
-    "Olivolja",
-    "Pressad lime",
-    "Salt",
-    "Sesamfrön",
-    "Svartpeppar"
-  ]
+  "sides": ["Råris"],
+  "pantry": ["Sojasås", "Olivolja", "Pressad lime", "Salt", "Sesamfrön", "Svartpeppar"]
 }

@@ -57,11 +57,6 @@
     "Vispa ihop mjölk och majsstärkelse i en kastrull. Låt koka upp under omrörning och sjuda tills det tjocknar. Ta av från värmen och rör ner crème fraiche och riven ost. Vispa tills det blir slätt och rör därefter ner äggen. Krydda med salt, peppar och en nypa muskotnöt.",
     "Häll äggstanningen över broccolin och sätt in formen mitt i ugnen i ca 30 minuter."
   ],
-  "sides": [
-    "Sallad"
-  ],
-  "pantry": [
-    "Salt",
-    "Svartpeppar"
-  ]
+  "sides": ["Sallad"],
+  "pantry": ["Salt", "Svartpeppar"]
 }

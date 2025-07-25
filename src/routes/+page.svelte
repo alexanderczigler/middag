@@ -26,7 +26,7 @@
 
 <h2>Planering</h2>
 <ul>
-  {#each otherRecipes as { date, recipe }: { date: string, recipe: Recipe }}
+  {#each otherRecipes as { date, recipe }: { date: string, recipe: import('$lib/types').Recipe }}
     {#if recipe}
       <li>
         <strong>{date}:</strong>

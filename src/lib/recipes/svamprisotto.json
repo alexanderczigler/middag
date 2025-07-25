@@ -54,9 +54,5 @@
     "Smaksätt med salt och nymalen svartpeppar."
   ],
   "sides": [],
-  "pantry": [
-    "Salt",
-    "Svartpeppar",
-    "Olivolja"
-  ]
+  "pantry": ["Salt", "Svartpeppar", "Olivolja"]
 }

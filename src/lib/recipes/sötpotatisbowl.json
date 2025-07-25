@@ -43,15 +43,6 @@
     "Grilla sötpotatisen i ugnen på 200 grader tills den är mjuk.",
     "Servera allt i en skål, toppa med picklad rödlök, sesamfrön och pumpafrön."
   ],
-  "sides": [
-    "Mathavre"
-  ],
-  "pantry": [
-    "Sojasås",
-    "Olivolja",
-    "Balsamico",
-    "Salt",
-    "Sesamfrön",
-    "Svartpeppar"
-  ]
+  "sides": ["Mathavre"],
+  "pantry": ["Sojasås", "Olivolja", "Balsamico", "Salt", "Sesamfrön", "Svartpeppar"]
 }

@@ -55,10 +55,5 @@
     "Toppa med resterande salladslök och servera med potatis."
   ],
   "sides": [],
-  "pantry": [
-    "Salt",
-    "Svartpeppar",
-    "olivolja",
-    "Potatis"
-  ]
+  "pantry": ["Salt", "Svartpeppar", "olivolja", "Potatis"]
 }

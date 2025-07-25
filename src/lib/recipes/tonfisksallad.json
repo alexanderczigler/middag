@@ -66,9 +66,5 @@
     "Servera sallad med mozzarella och ägg.",
     "Konderad salladen med olivolja, balsamico/vinäger, salt och peppar."
   ],
-  "sides": [
-    "Balsamico",
-    "Rödvinsvinäger",
-    "Äppelcidervinäger"
-  ]
+  "sides": ["Balsamico", "Rödvinsvinäger", "Äppelcidervinäger"]
 }
