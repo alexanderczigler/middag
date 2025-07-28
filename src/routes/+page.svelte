@@ -1,4 +1,5 @@
 <script lang="ts">
+  import type { Recipe } from '$lib/types/recipe';
   import type { PageData } from './$types';
 
   export let data: PageData;
@@ -7,7 +8,7 @@
 
   const upcomingRecipes = Object.entries(data.menu)
     .map(([date, slug]) => {
-      const recipe = data.recipes.find((recipe) => recipe.slug === slug);
+      const recipe = data.recipes.find((recipe: Recipe) => recipe.slug === slug);
       return { date, recipe };
     })
     .filter((item) => item.recipe);

@@ -34,12 +34,6 @@
     "Tillaga mitt i ugnen i ca 20 minuter, tills osten fått fin färg.",
     "Servera gärna med potatismos, tomat och rödlök."
   ],
-  "sides": [
-    "potatismos",
-    "rödlök",
-    "tomat"
-  ],
-  "pantry": [
-    "ströbröd"
-  ]
+  "sides": ["potatismos", "rödlök", "tomat"],
+  "pantry": ["ströbröd"]
 }
