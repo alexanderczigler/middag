@@ -42,14 +42,6 @@
     "Servera med ris och gärna raita."
   ],
   "title": "Linsgryta med kokosmjölk",
-  "sides": [
-    "naan",
-    "raita"
-  ],
-  "pantry": [
-    "ris",
-    "rapsolja",
-    "salt",
-    "mild curry"
-  ]
+  "sides": ["naan", "raita"],
+  "pantry": ["ris", "rapsolja", "salt", "mild curry"]
 }
