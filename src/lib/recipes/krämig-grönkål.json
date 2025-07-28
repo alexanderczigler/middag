@@ -44,7 +44,7 @@
   ],
   "instructions": [
     "Koka matvete enligt anvisning på förpackningen tillsammans med en grönsaksbuljongtärning.",
-    "Skala och finhacka gullök och vitlök. Stek dem mjuka i olja på medelvärme.",
+    "Skala och finhacka lök och vitlök. Stek dem mjuka i olja på medelvärme.",
     "Krossa eller finhacka grönpepparn. Skär champinjoner och grönkål i mindre bitar.",
     "Tillsätt grönpeppar, champinjoner och grönkål till stekpannan och stek tills de mjuknar.",
     "Häll i grädde och japansk soja. Rör om och låt koka upp.",
@@ -52,5 +52,10 @@
     "Servera såsen med det kokta matvetet."
   ],
   "sides": [],
-  "pantry": ["Matvete", "Grönsaksbuljongtärning", "olivolja", "Salt"]
+  "pantry": [
+    "Matvete",
+    "Grönsaksbuljongtärning",
+    "olivolja",
+    "Salt"
+  ]
 }
