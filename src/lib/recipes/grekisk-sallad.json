@@ -40,9 +40,15 @@
       "name": "Rödvinsvinäger",
       "quantity": 1,
       "unit": "msk"
+    },
+    {
+      "name": "Romansallad",
+      "quantity": 1,
+      "unit": "st"
     }
   ],
   "instructions": [
+    "Skölj och torka romansalladen, riv den i bitar.",
     "Skala och skiva rödlöken.",
     "Skär gurkan och tomaterna i bitar.",
     "Bryt fetaosten i bitar.",
@@ -54,5 +60,7 @@
     "Servera och njut av din grekiska sallad!"
   ],
   "sides": [],
-  "pantry": ["svartpeppar"]
+  "pantry": [
+    "svartpeppar"
+  ]
 }
