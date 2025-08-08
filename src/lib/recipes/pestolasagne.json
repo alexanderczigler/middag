@@ -74,6 +74,10 @@
     "Grädda i ugnen i ca 20 minuter tills lasagnen är gyllene och bubblig.",
     "Skär gurkan i tärningar och servera som tillbehör."
   ],
-  "sides": ["Tärnad gurka"],
-  "pantry": ["Rapsolja"]
+  "sides": [
+    "Gurka"
+  ],
+  "pantry": [
+    "Rapsolja"
+  ]
 }
