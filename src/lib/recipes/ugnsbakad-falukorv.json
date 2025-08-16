@@ -2,27 +2,27 @@
   "title": "Ugnsbakad falukorv",
   "ingredients": [
     {
-      "name": "falukorv",
+      "name": "Falukorv",
       "quantity": 500,
       "unit": "g"
     },
     {
-      "name": "inlagd gurka",
+      "name": "Inlagd gurka",
       "quantity": 4,
       "unit": "msk"
     },
     {
-      "name": "senap",
+      "name": "Senap",
       "quantity": 2,
       "unit": "msk"
     },
     {
-      "name": "riven ost",
+      "name": "Riven ost",
       "quantity": 1,
       "unit": "dl"
     },
     {
-      "name": "ketchup",
+      "name": "Tomatpure",
       "quantity": 2,
       "unit": "msk"
     }

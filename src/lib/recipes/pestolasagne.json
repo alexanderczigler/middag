@@ -22,16 +22,6 @@
       "unit": "msk"
     },
     {
-      "name": "Salt",
-      "quantity": 1,
-      "unit": "krm"
-    },
-    {
-      "name": "Svartpeppar",
-      "quantity": 1,
-      "unit": "krm"
-    },
-    {
       "name": "Riven ost",
       "quantity": 2,
       "unit": "dl"
@@ -75,5 +65,5 @@
     "Skär gurkan i tärningar och servera som tillbehör."
   ],
   "sides": ["Gurka"],
-  "pantry": ["Rapsolja"]
+  "pantry": ["Rapsolja", "Salt", "Svartpeppar"]
 }

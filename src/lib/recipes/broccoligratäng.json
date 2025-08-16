@@ -17,8 +17,13 @@
       "unit": "msk"
     },
     {
-      "name": "Mjölk",
-      "quantity": 2,
+      "name": "Grädde",
+      "quantity": 1,
+      "unit": "dl"
+    },
+    {
+      "name": "Havredryck",
+      "quantity": 1,
       "unit": "dl"
     },
     {
