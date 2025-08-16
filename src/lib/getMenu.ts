@@ -1,12 +1,13 @@
 import type { Menu } from "./types/menu";
 
 const MENU: Menu = {
-	"2025-08-08": "ugnsbakad-falukorv",
-	"2025-08-09": "sötpotatisbowl",
-	"2025-08-10": "currykyckling",
-	"2025-08-11": "ugnsbakad-lax",
-	"2025-08-12": "linsgryta",
-	"2025-08-13": "grekisk-sallad",
+	"2025-08-18": "ugnsbakad-falukorv",
+	"2025-08-19": "currykyckling",
+	"2025-08-20": "pestolasagne",
+	"2025-08-21": "linsgryta",
+	"2025-08-22": "spenat-och-fetaostpaj",
+	"2025-08-24": "broccoligratäng",
+	"2025-08-25": "ugnsbakad-falukorv",
 };
 
 export function getMenu(from?: string): Menu {
