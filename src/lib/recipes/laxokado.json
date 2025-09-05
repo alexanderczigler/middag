@@ -1,0 +1,28 @@
+{
+  "title": "Lax med quinoa och avokado",
+  "ingredients": [
+    {
+      "name": "Lax",
+      "quantity": 400,
+      "unit": "g"
+    },
+    {
+      "name": "Avokado",
+      "quantity": 1,
+      "unit": "st"
+    },
+    {
+      "name": "Grönkål",
+      "quantity": 200,
+      "unit": "g"
+    }
+  ],
+  "instructions": [
+    "Sätt ugnen på 175°C.",
+    "Lägg laxen i en ugnsform, pensla på olja och krydda med salt, peppar och gurkmeja.",
+    "Koka riset enligt anvisning på förpackningen.",
+    "Servera lax med quinoa och skivad avokado."
+  ],
+  "sides": ["Picklad morot", "Gurka", "Bladpersilja", "Solroskärnor"],
+  "pantry": ["Olivolja", "Svartris", "Gurkmeja", "Basilika", "Salt", "Svartpeppar", "Citron§"]
+}
