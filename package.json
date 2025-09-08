@@ -20,6 +20,7 @@
     "@sveltejs/adapter-vercel": "5.10.2",
     "@sveltejs/kit": "2.37.1",
     "@sveltejs/vite-plugin-svelte": "6.1.4",
+    "@tailwindcss/postcss": "4.1.13",
     "@types/eslint": "9.6.1",
     "@types/estree": "1.0.8",
     "@types/json-schema": "7.0.15",
