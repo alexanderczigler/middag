@@ -43,7 +43,7 @@
   ul {
     list-style-type: none;
     padding: 0;
-    @apply ml-4 mr-4;
+    @apply mr-4 ml-4;
   }
 
   li {
@@ -53,7 +53,7 @@
   ol {
     list-style: none;
     counter-reset: item;
-    @apply ml-4 mr-4;
+    @apply mr-4 ml-4;
   }
   ol li {
     counter-increment: item;

@@ -1,56 +1,56 @@
-@import "@fontsource/nunito";
-@import "tailwindcss";
+@import '@fontsource/nunito';
+@import 'tailwindcss';
 
 :root {
-	--font-sans: "Nunito", sans-serif;
-	--background-color: #f5f5f5;
-	--text-color: #000000;
-	--text-meta-color: rgba(0, 77, 128, 0.6);
-	--h1-color: #004d80;
-	--h2-color: #195e8c;
-	--h3-color: #327099;
-	--link-color: #004d80;
-	--link-hover-color: #002e4d;
+  --font-sans: 'Nunito', sans-serif;
+  --background-color: #f5f5f5;
+  --text-color: #000000;
+  --text-meta-color: rgba(0, 77, 128, 0.6);
+  --h1-color: #004d80;
+  --h2-color: #195e8c;
+  --h3-color: #327099;
+  --link-color: #004d80;
+  --link-hover-color: #002e4d;
 }
 
 body {
-	background-color: var(--background-color);
-	color: var(--text-color);
-	font-family: var(--font-sans), sans-serif;
-	margin: 0 auto;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: var(--font-sans), sans-serif;
+  margin: 0 auto;
 }
 
 a {
-	color: var(--link-color);
+  color: var(--link-color);
 }
 
 a:hover {
-	color: var(--link-hover-color);
+  color: var(--link-hover-color);
 }
 
 h1 {
-	@apply m-4 text-4xl font-bold;
-	color: var(--h1-color);
+  @apply m-4 text-4xl font-bold;
+  color: var(--h1-color);
 }
 
 h2 {
-	@apply m-4 text-2xl font-bold;
-	color: var(--h2-color);
+  @apply m-4 text-2xl font-bold;
+  color: var(--h2-color);
 }
 
 h3 {
-	@apply m-4 text-xl font-bold;
-	color: var(--h3-color);
+  @apply m-4 text-xl font-bold;
+  color: var(--h3-color);
 }
 
 ul {
-	@apply m-4;
+  @apply m-4;
 }
 
 p {
-	@apply m-4;
+  @apply m-4;
 }
 
 content {
-	@apply m-4;
+  @apply m-4;
 }
