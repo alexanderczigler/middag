@@ -9,7 +9,7 @@
 
 <h2>Ingredienser</h2>
 <ul>
-  {#each recipe.ingredients as { name, quantity, unit }}
+  {#each recipe.ingredients as { name, quantity, unit } (name)}
     <li>{name} ({quantity} {unit})</li>
   {/each}
 </ul>
@@ -17,7 +17,7 @@
 {#if recipe.pantry}
   <h3>Från skafferiet</h3>
   <ul>
-    {#each recipe.pantry as item}
+    {#each recipe.pantry as item (item)}
       <li>{item}</li>
     {/each}
   </ul>
@@ -26,7 +26,7 @@
 {#if recipe.sides}
   <h3>Passande tillbehör</h3>
   <ul>
-    {#each recipe.sides as side}
+    {#each recipe.sides as side (side)}
       <li>{side}</li>
     {/each}
   </ul>
@@ -34,12 +34,14 @@
 
 <h2>Instruktioner</h2>
 <ol>
-  {#each recipe.instructions as step}
+  {#each recipe.instructions as step (step)}
     <li>{step}</li>
   {/each}
 </ol>
 
 <style>
+  @reference "../../../app.css";
+
   ul {
     list-style-type: none;
     padding: 0;

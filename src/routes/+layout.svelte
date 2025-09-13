@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { resolve } from '$app/paths';
   import { page } from '$app/stores';
   import '../app.css';
 
@@ -6,16 +7,18 @@
 </script>
 
 <main>
-  <ul class="menu m-0">
+  <ul class="menu">
     <li>
-      <a href="/" class:active={$page.url.pathname === '/'}>Meny</a>
+      <a href={resolve('/')} class:active={$page.url.pathname === '/'}>Meny</a>
     </li>
     <li>
-      <a href="/shoppingList" class:active={$page.url.pathname === '/shoppingList'}>Veckohandling</a
+      <a href={resolve('/shoppingList')} class:active={$page.url.pathname === '/shoppingList'}
+        >Veckohandling</a
       >
     </li>
     <li>
-      <a href="/recipe" class:active={$page.url.pathname.startsWith('/recipe')}>Recept</a>
+      <a href={resolve('/recipe')} class:active={$page.url.pathname.startsWith('/recipe')}>Recept</a
+      >
     </li>
   </ul>
 
@@ -25,6 +28,8 @@
 </main>
 
 <style>
+  @reference "../app.css";
+
   ul.menu {
     display: flex;
     flex-direction: row;
@@ -33,6 +38,8 @@
     align-items: baseline;
     align-content: stretch;
     background-color: #efefef;
+
+    @apply m-0;
   }
 
   ul.menu li {
