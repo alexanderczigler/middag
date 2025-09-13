@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { resolve } from '$app/paths';
   import type { PageData } from './$types';
 
   export let data: PageData;
@@ -7,8 +8,8 @@
 <h1>Recept</h1>
 {#if data.recipes && data.recipes.length > 0}
   <ul class="">
-    {#each data.recipes as recipe}
-      <li><a href={`/recipe/${recipe.slug}`}>{recipe.title}</a></li>
+    {#each data.recipes as recipe (recipe)}
+      <li><a href={resolve(`/recipe/${recipe.slug}`)}>{recipe.title}</a></li>
     {/each}
   </ul>
 {:else}

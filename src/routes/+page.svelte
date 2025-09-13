@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { resolve } from '$app/paths';
   import type { Recipe } from '$lib/types/recipe';
   import type { PageData } from './$types';
 
@@ -21,17 +22,18 @@
 
 {#if todayRecipe}
   <p>
-    Dagens: <a href={`/recipe/${todayRecipe.recipe?.slug}`}>{todayRecipe.recipe?.title}</a>.
+    Dagens: <a href={resolve(`/recipe/${todayRecipe.recipe?.slug}`)}>{todayRecipe.recipe?.title}</a
+    >.
   </p>
 {/if}
 
 <h2>Planering</h2>
 <ul>
-  {#each otherRecipes as { date, recipe }: { date: string, recipe: import('$lib/types').Recipe }}
+  {#each otherRecipes as { date, recipe }: { date: string, recipe: import('$lib/types').Recipe } (date)}
     {#if recipe}
       <li>
         <strong>{date}:</strong>
-        <a href={`/recipe/${recipe.slug}`}>{recipe.title}</a>
+        <a href={resolve(`/recipe/${recipe.slug}`)}>{recipe.title}</a>
       </li>
     {/if}
   {/each}

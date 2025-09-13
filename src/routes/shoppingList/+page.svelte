@@ -1,5 +1,6 @@
 <script lang="ts">
   import type { Ingredient } from '$lib/types/ingredient';
+  import { SvelteSet } from 'svelte/reactivity';
   import type { PageData } from './$types';
 
   export let data: PageData;
@@ -8,7 +9,7 @@
   const sides = data.sides as string[];
 
   // Lokal state för avkryssade ingredienser i inköpslistan
-  let checkedItems: Set<string> = new Set();
+  const checkedItems: SvelteSet<string> = new SvelteSet();
 
   // Funktion för att toggla avkryssning
   function toggleChecked(itemName: string) {
@@ -25,7 +26,7 @@
 <h2>Recept</h2>
 {#if ingredients.length > 0}
   <ul class="shopping-list">
-    {#each ingredients as { name, quantity, unit }}
+    {#each ingredients as { name, quantity, unit } (name)}
       <li class="shopping-item">
         <label>
           <input type="checkbox" on:change={() => toggleChecked(name)} />
@@ -44,7 +45,7 @@
 
 <h2>Tillbehör</h2>
 <ul class="sides">
-  {#each sides as item}
+  {#each sides as item (item)}
     <li class="sides-item">
       <label>
         <input type="checkbox" on:change={() => toggleChecked(item)} />
@@ -56,7 +57,7 @@
 
 <h2>Skafferi</h2>
 <ul class="pantry">
-  {#each pantry as item}
+  {#each pantry as item (item)}
     <li class="pantry-item">
       <label>
         <input type="checkbox" on:change={() => toggleChecked(item)} />
