@@ -1,11 +1,13 @@
 import type { Menu } from "./types/menu";
 
 const MENU: Menu = {
-	"2025-09-15": "chana-daal",
-	"2025-09-17": "mexicali",
-	"2025-09-18": "sötpotatisbowl",
-	"2025-09-19": "laxokado",
-	"2025-09-20": "broccoligratäng",
+	"2025-09-22": "ugnsbakad-lax",
+	"2025-09-23": "chicken-tikka-masala",
+	"2025-09-24": "chana-daal",
+	"2025-09-25": "laxokado",
+	"2025-09-26": "svamprisotto",
+	"2025-09-27": "gnocchi-köttfärssås",
+	"2025-09-28": "pokebowl",
 };
 
 export function getMenu(from?: string): Menu {
