@@ -43,7 +43,7 @@
     }
   ],
   "pantry": ["Salt", "Svartpeppar", "Timjan", "Rosmarin", "Oregano", "Olivolja"],
-  "sides": ["Romansallad", "Rödlök", "Olivolja", "Balsamico", "Gurka", "Tomat"],
+  "sides": ["Sallad", "Rödlök", "Olivolja", "Balsamico", "Gurka", "Tomat"],
   "instructions": [
     "Finhacka lök, vitlök, morot och selleristjälkar.",
     "Fräs allt i olivolja tills morötterna börjar mjukna.",
@@ -51,7 +51,7 @@
     "Tillsätt krossade tomater och örter.",
     "Låt såsen puttra minst 10 minuter.",
     "Koka gnocchin enligt anvisningarna på förpackningen.",
-    "Finhacka rödlök, tomat, gurka och romansallad. Blanda och kondera med salt, svartpeppar, olivolja och balsamico.",
+    "Finhacka rödlök, tomat, gurka och sallad. Blanda och kondera med salt, svartpeppar, olivolja och balsamico.",
     "Smaka av med salt och svartpeppar.",
     "Servera köttfärssås med gnocchi."
   ]

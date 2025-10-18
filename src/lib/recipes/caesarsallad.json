@@ -2,7 +2,7 @@
   "title": "Caesarsallad med kyckling och bacon",
   "ingredients": [
     {
-      "name": "Romansallad",
+      "name": "Sallad",
       "quantity": 1,
       "unit": "st"
     },
@@ -61,7 +61,7 @@
     "Förbered dressingen: Blanda äggula, pressad vitlök, rödvinsvinäger, grädde och finhackade sardeller i en skål. Tillsätt olivolja och rapsolja lite i taget under ständig vispning tills dressingen tjocknar. Rör ner riven parmesanost och smaka av med salt och peppar.",
     "Stek baconet knaprigt i en panna och låt rinna av på hushållspapper.",
     "Krydda kycklingfiléerna med salt och peppar. Stek dem tills de är genomstekta och har en gyllenbrun yta. Låt vila några minuter och skär sedan i skivor.",
-    "Skölj romansalladen och riv i mindre bitar. Lägg salladen på ett stort fat eller i en skål.",
+    "Skölj sallad och riv i mindre bitar. Lägg salladen på ett stort fat eller i en skål.",
     "Toppa salladen med kycklingskivor, bacon och krutonger. Ringla över dressingen och blanda försiktigt."
   ],
   "sides": ["krutonger"],
