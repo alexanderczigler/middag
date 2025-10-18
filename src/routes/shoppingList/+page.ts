@@ -1,7 +1,7 @@
-import { getRecipes } from '$lib/getRecipes';
 import { getMenu } from '$lib/getMenu';
-import type { Menu } from '$lib/types/menu';
+import { getRecipes } from '$lib/getRecipes';
 import type { Ingredient } from '$lib/types/ingredient';
+import type { Menu } from '$lib/types/menu';
 
 export async function load({ url }): Promise<{
   ingredients: Ingredient[];
@@ -9,57 +9,49 @@ export async function load({ url }): Promise<{
   pantry: string[];
   sides: string[];
 }> {
-  // Hämta query-parametern 'from' från URL:en
   const from: string = url.searchParams.get('from') || '';
-
-  // Skicka 'from' till getMenu() om den finns, annars null
   const menu = await getMenu(from);
-
   const recipes = await getRecipes();
-
-  // Extrahera alla recepttitlar från menyn
   const plannedRecipeSlugs = Object.values(menu);
-
-  // Filtrera recepten som matchar menyns titlar
   const plannedRecipes = recipes.filter((recipe) =>
     plannedRecipeSlugs.find((slug) => slug === recipe.slug)
   );
 
-  // Sammanställ ingredienser
   const ingredients: Ingredient[] = [];
   const pantry: string[] = [];
   const sides: string[] = [];
 
-  plannedRecipes.forEach((recipe) => {
-    recipe.ingredients.forEach(({ name, quantity, unit }) => {
+  for (const recipe of plannedRecipes) {
+    for (const { name, quantity, unit } of recipe.ingredients) {
       const existingIngredient = ingredients.find(
-        (item) => item.name === name && item.unit === unit
+        (item) => item.name.toLowerCase() === name.toLowerCase() && item.unit === unit
       );
       if (existingIngredient) {
         existingIngredient.quantity += quantity;
       } else {
-        ingredients.push({ name, quantity, unit });
+        ingredients.push({ name: name.toLowerCase(), quantity, unit });
       }
-    });
+    }
 
-    recipe.pantry?.forEach((item) => {
-      if (pantry.includes(item.toLowerCase())) {
-        return;
+    if (recipe.pantry) {
+      for (const item of recipe.pantry) {
+        if (pantry.includes(item.toLowerCase())) {
+          continue;
+        }
+        pantry.push(item.toLowerCase());
       }
+    }
 
-      pantry.push(item.toLowerCase());
-    });
-
-    recipe.sides?.forEach((item) => {
-      if (sides.includes(item.toLowerCase())) {
-        return;
+    if (recipe.sides) {
+      for (const item of recipe.sides) {
+        if (sides.includes(item.toLowerCase())) {
+          continue;
+        }
+        sides.push(item.toLowerCase());
       }
+    }
+  }
 
-      sides.push(item.toLowerCase());
-    });
-  });
-
-  // Sortera ingredienserna alfabetiskt
   ingredients.sort((a, b) => a.name.localeCompare(b.name));
   pantry.sort((a, b) => a.localeCompare(b));
 
