@@ -1,0 +1,58 @@
+{
+  "title": "Tacokväll",
+  "ingredients": [
+    {
+      "name": "Vegofärs",
+      "quantity": 400,
+      "unit": "g"
+    },
+    {
+      "name": "Avokado",
+      "quantity": 2,
+      "unit": "st"
+    },
+    {
+      "name": "Tortillabröd",
+      "quantity": 1,
+      "unit": "förp"
+    },
+    {
+      "name": "Salsa",
+      "quantity": 1,
+      "unit": "burk"
+    },
+    {
+      "name": "Riven ost",
+      "quantity": 150,
+      "unit": "g"
+    },
+    {
+      "name": "Gräddfil",
+      "quantity": 200,
+      "unit": "g"
+    },
+    {
+      "name": "Tacokrydda",
+      "quantity": 1,
+      "unit": "påse"
+    },
+    {
+      "name": "Majs",
+      "quantity": 1,
+      "unit": "burk"
+    },
+    {
+      "name": "Tomat",
+      "quantity": 2,
+      "unit": "st"
+    },
+    {
+      "name": "Gurka",
+      "quantity": 1,
+      "unit": "st"
+    }
+  ],
+  "instructions": [""],
+  "sides": ["Rostad lök"],
+  "pantry": ["Lök"]
+}
