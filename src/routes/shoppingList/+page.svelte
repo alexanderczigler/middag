@@ -32,8 +32,10 @@
           <input type="checkbox" on:change={() => toggleChecked(name)} />
           <span class:checked={checkedItems.has(name)}>
             {name}
-            ({quantity}
-            {unit})
+            <span class="quantity-unit">
+              ({quantity}
+              {unit})
+            </span>
           </span>
         </label>
       </li>
@@ -68,7 +70,13 @@
 </ul>
 
 <style>
-  .pantry {
+  .pantry,
+  .shopping-list,
+  .sides {
     text-transform: capitalize;
+  }
+
+  .quantity-unit {
+    text-transform: lowercase;
   }
 </style>
