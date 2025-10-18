@@ -1,13 +1,14 @@
 import type { Menu } from './types/menu';
 
 const MENU: Menu = {
-  '2025-10-12': 'sötpotatisbowl',
-  '2025-10-13': 'ugnsbakad-lax',
-  '2025-10-14': 'chana-daal',
-  '2025-10-15': 'holy-caesar',
-  '2025-10-16': 'pokebowl',
-  '2025-10-17': 'spenat-och-fetaostpaj',
-  '2025-10-18': 'gnocchi-köttfärssås'
+  '2025-10-19': 'mapu-tofu',
+  '2025-10-20': 'sötpotatisbowl',
+  '2025-10-21': 'krämig-lax',
+  '2025-10-22': 'gnocchi-köttfärssås',
+  '2025-10-23': 'pokebowl',
+  '2025-10-24': 'tacokväll',
+  '2025-10-25': 'ugnsbakad-lax',
+  '2025-10-26': 'spenat-och-fetaostpaj'
 };
 
 export function getMenu(from?: string): Menu {
