@@ -7,7 +7,7 @@ const MENU: Menu = {
   '2025-10-29': 'chana-daal',
   '2025-10-30': 'pokebowl',
   '2025-10-31': 'tacokväll',
-  '2025-10-25': 'ugnsbakad-lax'
+  '2025-11-01': 'ugnsbakad-lax'
 };
 
 export function getMenu(from?: string): Menu {
