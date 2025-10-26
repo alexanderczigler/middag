@@ -32,8 +32,8 @@
       "unit": "g"
     },
     {
-      "name": "Salladslök",
-      "quantity": 2,
+      "name": "Rödlök",
+      "quantity": 0.5,
       "unit": "st"
     },
     {
@@ -49,10 +49,10 @@
     "Skala och riv vitlöken. Fräs den mjuk i lite ny olja i stekpannan.",
     "Tillsätt grädde, fiskfond och vitvinsvinäger i pannan och låt såsen sjuda i 5 minuter.",
     "Sila av oljan från de soltorkade tomaterna och skär dem i strimlor.",
-    "Skölj och finstrimla salladslöken.",
-    "Tillsätt soltorkade tomater, hälften av salladslöken och spenaten i gräddsåsen. Späd med vatten om såsen känns för tjock och låt puttra i 2 minuter. Smaka av med salt och peppar.",
+    "Finhacka löken.",
+    "Tillsätt soltorkade tomater, lök och spenaten i gräddsåsen. Späd med vatten om såsen känns för tjock och låt puttra i 2 minuter. Smaka av med salt och peppar.",
     "Lägg tillbaka laxbitarna i såsen och låt dem bli varma.",
-    "Toppa med resterande salladslök och servera med potatis."
+    "Servera med potatis."
   ],
   "sides": [],
   "pantry": ["Salt", "Svartpeppar", "olivolja", "Potatis"]
