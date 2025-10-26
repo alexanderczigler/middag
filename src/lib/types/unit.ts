@@ -8,6 +8,7 @@ export type Unit =
   | 'tsk' // Tesked
   | 'st' // Styck
   | 'kg' // Kilogram
+  | 'krukor'
   | 'ml' // Milliliter
   | 'cl' // Centiliter
   | 'l' // Liter

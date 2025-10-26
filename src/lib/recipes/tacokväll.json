@@ -47,9 +47,19 @@
       "unit": "st"
     },
     {
+      "name": "Lime",
+      "quantity": 1,
+      "unit": "st"
+    },
+    {
       "name": "Gurka",
       "quantity": 1,
       "unit": "st"
+    },
+    {
+      "name": "Koriander",
+      "quantity": 1,
+      "unit": "krukor"
     }
   ],
   "instructions": [""],
