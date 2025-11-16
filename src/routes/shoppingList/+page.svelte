@@ -1,22 +1,22 @@
 <script lang="ts">
-  import type { Ingredient } from '$lib/types/ingredient';
-  import { SvelteSet } from 'svelte/reactivity';
-  import type { PageData } from './$types';
+  import type { Ingredient } from '$lib/types/ingredient'
+  import { SvelteSet } from 'svelte/reactivity'
+  import type { PageData } from './$types'
 
-  export let data: PageData;
-  const ingredients = data.ingredients as Ingredient[];
-  const pantry = data.pantry as string[];
-  const sides = data.sides as string[];
+  export let data: PageData
+  const ingredients = data.ingredients as Ingredient[]
+  const pantry = data.pantry as string[]
+  const sides = data.sides as string[]
 
   // Lokal state för avkryssade ingredienser i inköpslistan
-  const checkedItems: SvelteSet<string> = new SvelteSet();
+  const checkedItems: SvelteSet<string> = new SvelteSet()
 
   // Funktion för att toggla avkryssning
   function toggleChecked(itemName: string) {
     if (checkedItems.has(itemName)) {
-      checkedItems.delete(itemName);
+      checkedItems.delete(itemName)
     } else {
-      checkedItems.add(itemName);
+      checkedItems.add(itemName)
     }
   }
 </script>
@@ -45,10 +45,10 @@
   <p>Inga ingredienser hittades för veckomenyn.</p>
 {/if}
 
-<h2>Tillbehör</h2>
-<ul class="sides">
-  {#each sides as item (item)}
-    <li class="sides-item">
+<h2>Alltid hemma</h2>
+<ul class="pantry">
+  {#each pantry as item (item)}
+    <li class="pantry-item">
       <label>
         <input type="checkbox" on:change={() => toggleChecked(item)} />
         {item}
@@ -57,10 +57,10 @@
   {/each}
 </ul>
 
-<h2>Skafferi</h2>
-<ul class="pantry">
-  {#each pantry as item (item)}
-    <li class="pantry-item">
+<h2>Valfria tillbehör</h2>
+<ul class="sides">
+  {#each sides as item (item)}
+    <li class="sides-item">
       <label>
         <input type="checkbox" on:change={() => toggleChecked(item)} />
         {item}
