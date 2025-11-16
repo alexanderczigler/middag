@@ -1,56 +1,64 @@
 {
-  "ingredients": [
-    {
-      "name": "Lax",
-      "quantity": 400,
-      "unit": "g"
-    },
-    {
-      "name": "Rotfrukter",
-      "quantity": 500,
-      "unit": "g"
-    },
-    {
-      "name": "Crème fraiche",
-      "quantity": 2,
-      "unit": "dl"
-    },
-    {
-      "name": "Pepparrot",
-      "quantity": 3,
-      "unit": "msk"
-    },
-    {
-      "name": "Senap",
-      "quantity": 1,
-      "unit": "tsk"
-    },
-    {
-      "name": "Citron",
-      "quantity": 1,
-      "unit": "klyftor"
-    },
-    {
-      "name": "Dill",
-      "quantity": 1,
-      "unit": "msk"
-    },
-    {
-      "name": "Gröna ärtor",
-      "quantity": 2,
-      "unit": "dl"
-    }
-  ],
-  "instructions": [
-    "Sätt ugnen på 225 grader.",
-    "Skär rotfrukterna i mindre bitar.",
-    "Lägg rotfrukter och lax på en ugnsplåt. Pensla med olja och krydda med salt. Krydda lax med gurkmeja och krydda rotfrukterna med t.ex. timjan eller rosmarin.",
-    "Grädda i ugnen ca 40 minuter tills laxen är genomstekt och rotfrukterna fått önskad färg.",
-    "Om frysta ärtor används, ångkoka dem i ett durkslag tills de tinat och är varma.",
-    "Sås: blanda crème fraiche med pepparrot, dill, senap, salt, peppar och saften från en citronklyfta.",
-    "Servera lax med rotfrukter, ärtor och sås."
-  ],
-  "title": "Ugnsbakad lax, rotfrukter och pepparrotsås",
-  "sides": [],
-  "pantry": ["olivolja", "salt", "citronpeppar", "gurkmeja", "timjan", "rosmarin", "citron"]
+	"ingredients": [
+		{
+			"name": "Lax",
+			"quantity": 400,
+			"unit": "g"
+		},
+		{
+			"name": "Potatis",
+			"quantity": 500,
+			"unit": "g"
+		},
+		{
+			"name": "Crème fraiche",
+			"quantity": 2,
+			"unit": "dl"
+		},
+		{
+			"name": "Pepparrot",
+			"quantity": 3,
+			"unit": "msk"
+		},
+		{
+			"name": "Senap",
+			"quantity": 1,
+			"unit": "tsk"
+		},
+		{
+			"name": "Citron",
+			"quantity": 1,
+			"unit": "klyftor"
+		},
+		{
+			"name": "Dill",
+			"quantity": 1,
+			"unit": "msk"
+		},
+		{
+			"name": "Gröna ärtor",
+			"quantity": 2,
+			"unit": "dl"
+		}
+	],
+	"instructions": [
+		"Sätt ugnen på 225 grader.",
+		"Skär potatis i mindre bitar.",
+		"Lägg potatis och lax på en ugnsplåt. Pensla med olja och krydda med salt. Krydda lax med gurkmeja och krydda potatis med t.ex. timjan eller rosmarin.",
+		"Grädda i ugnen ca 40 minuter tills laxen är genomstekt och potatis fått önskad färg.",
+		"Om frysta ärtor används, ångkoka dem i ett durkslag tills de tinat och är varma.",
+		"Sås: blanda crème fraiche med pepparrot, dill, senap, salt, peppar och saften från en citronklyfta.",
+		"Servera lax med potatis, ärtor och sås."
+	],
+	"title": "Ugnsbakad lax, potatis och pepparrotsås",
+	"sides": [],
+	"pantry": [
+		"olivolja",
+		"salt",
+		"citronpeppar",
+		"gurkmeja",
+		"timjan",
+		"rosmarin",
+		"citron"
+	]
 }
