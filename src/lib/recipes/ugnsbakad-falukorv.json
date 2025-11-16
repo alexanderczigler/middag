@@ -1,39 +1,39 @@
 {
-  "title": "Ugnsbakad falukorv",
-  "ingredients": [
-    {
-      "name": "Falukorv",
-      "quantity": 500,
-      "unit": "g"
-    },
-    {
-      "name": "Inlagd gurka",
-      "quantity": 4,
-      "unit": "msk"
-    },
-    {
-      "name": "Senap",
-      "quantity": 2,
-      "unit": "msk"
-    },
-    {
-      "name": "Riven ost",
-      "quantity": 1,
-      "unit": "dl"
-    },
-    {
-      "name": "Tomatpure",
-      "quantity": 2,
-      "unit": "msk"
-    }
-  ],
-  "instructions": [
-    "Sätt ugnen på 225°C.",
-    "Skär ett skåror i korven, men inte helt igenom. Lägg den i en ugnsform",
-    "Bred på senap, ketchup och gurka. Strö över ost och ströbröd.",
-    "Tillaga mitt i ugnen i ca 20 minuter, tills osten fått fin färg.",
-    "Servera gärna med potatismos, tomat och rödlök."
-  ],
-  "sides": ["potatismos", "rödlök", "tomat"],
-  "pantry": ["ströbröd"]
+	"title": "Ugnsbakad falukorv",
+	"ingredients": [
+		{
+			"name": "Falukorv",
+			"quantity": 500,
+			"unit": "g"
+		},
+		{
+			"name": "Inlagd gurka",
+			"quantity": 4,
+			"unit": "msk"
+		},
+		{
+			"name": "Senap",
+			"quantity": 2,
+			"unit": "msk"
+		},
+		{
+			"name": "Riven ost",
+			"quantity": 1,
+			"unit": "dl"
+		},
+		{
+			"name": "Tomatpure",
+			"quantity": 2,
+			"unit": "msk"
+		}
+	],
+	"instructions": [
+		"Sätt ugnen på 225°C.",
+		"Skär ett skåror i korven, men inte helt igenom. Lägg den i en ugnsform",
+		"Bred på senap, ketchup och gurka. Strö över ost och ströbröd.",
+		"Tillaga mitt i ugnen i ca 20 minuter, tills osten fått fin färg.",
+		"Servera gärna med potatismos, tomat och rödlök."
+	],
+	"sides": [],
+	"pantry": ["ströbröd", "potatismos", "rödlök", "tomat"]
 }

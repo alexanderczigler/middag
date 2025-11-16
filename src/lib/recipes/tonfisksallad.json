@@ -1,70 +1,70 @@
 {
-  "title": "Tonfisksallad",
-  "ingredients": [
-    {
-      "name": "Tonfisk i vatten",
-      "quantity": 1,
-      "unit": "förp"
-    },
-    {
-      "name": "Mozzarella",
-      "quantity": 2,
-      "unit": "förp"
-    },
-    {
-      "name": "Sallad",
-      "quantity": 1,
-      "unit": "förp"
-    },
-    {
-      "name": "Körsbärstomater",
-      "quantity": 1,
-      "unit": "nävar"
-    },
-    {
-      "name": "Gurka",
-      "quantity": 0.5,
-      "unit": "st"
-    },
-    {
-      "name": "Citron",
-      "quantity": 2,
-      "unit": "klyftor"
-    },
-    {
-      "name": "Soltorkade tomater",
-      "quantity": 8,
-      "unit": "st"
-    },
-    {
-      "name": "Rödlök",
-      "quantity": 1,
-      "unit": "st"
-    },
-    {
-      "name": "Äpple",
-      "quantity": 1,
-      "unit": "st"
-    },
-    {
-      "name": "Ägg",
-      "quantity": 2,
-      "unit": "st"
-    },
-    {
-      "name": "Pasta",
-      "quantity": 2,
-      "unit": "nävar"
-    }
-  ],
-  "instructions": [
-    "Koka pasta och ägg i var sin kastrull.",
-    "Skölj salladen och lägg den i en stor skål.",
-    "Skär körsbärstomaterna i halvor, tärna gurkan och hacka löken. Skala och hacka äpplet. Lägg allt i skålen.",
-    "Skiva mozzarellan. Ringla olivolja över, salta och peppra.",
-    "Häll av tonfisken och blanda ner den i salladen.",
-    "Servera sallad med mozzarella och ägg.",
-    "Konderad salladen med olivolja, balsamico/vinäger, salt och peppar."
-  ],
-  "sides": ["Balsamico", "Rödvinsvinäger", "Äppelcidervinäger"]
+	"title": "Tonfisksallad",
+	"ingredients": [
+		{
+			"name": "Tonfisk i vatten",
+			"quantity": 1,
+			"unit": "förp"
+		},
+		{
+			"name": "Mozzarella",
+			"quantity": 2,
+			"unit": "förp"
+		},
+		{
+			"name": "Sallad",
+			"quantity": 1,
+			"unit": "förp"
+		},
+		{
+			"name": "Körsbärstomater",
+			"quantity": 1,
+			"unit": "nävar"
+		},
+		{
+			"name": "Gurka",
+			"quantity": 0.5,
+			"unit": "st"
+		},
+		{
+			"name": "Citron",
+			"quantity": 2,
+			"unit": "klyftor"
+		},
+		{
+			"name": "Soltorkade tomater",
+			"quantity": 8,
+			"unit": "st"
+		},
+		{
+			"name": "Rödlök",
+			"quantity": 1,
+			"unit": "st"
+		},
+		{
+			"name": "Äpple",
+			"quantity": 1,
+			"unit": "st"
+		},
+		{
+			"name": "Ägg",
+			"quantity": 2,
+			"unit": "st"
+		},
+		{
+			"name": "Pasta",
+			"quantity": 2,
+			"unit": "nävar"
+		}
+	],
+	"instructions": [
+		"Koka pasta och ägg i var sin kastrull.",
+		"Skölj salladen och lägg den i en stor skål.",
+		"Skär körsbärstomaterna i halvor, tärna gurkan och hacka löken. Skala och hacka äpplet. Lägg allt i skålen.",
+		"Skiva mozzarellan. Ringla olivolja över, salta och peppra.",
+		"Häll av tonfisken och blanda ner den i salladen.",
+		"Servera sallad med mozzarella och ägg.",
+		"Konderad salladen med olivolja, balsamico/vinäger, salt och peppar."
+	],
+	"pantry": ["Balsamico", "Rödvinsvinäger", "Äppelcidervinäger"]
 }

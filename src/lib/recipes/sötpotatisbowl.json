@@ -1,48 +1,56 @@
 {
-  "title": "Sötpotatisbowl",
-  "ingredients": [
-    {
-      "name": "Marinerad tofu",
-      "quantity": 230,
-      "unit": "g"
-    },
-    {
-      "name": "Sötpotatis",
-      "quantity": 1,
-      "unit": "st"
-    },
-    {
-      "name": "Mathavre",
-      "quantity": 4,
-      "unit": "dl"
-    },
-    {
-      "name": "Grönkål",
-      "quantity": 400,
-      "unit": "g"
-    },
-    {
-      "name": "Avokado",
-      "quantity": 2,
-      "unit": "st"
-    },
-    {
-      "name": "Picklad rödlök",
-      "quantity": 1,
-      "unit": "dl"
-    },
-    {
-      "name": "Pumpafrön",
-      "quantity": 0.5,
-      "unit": "dl"
-    }
-  ],
-  "instructions": [
-    "Koka mathavre enligt instruktionerna på förpackningen.",
-    "Tärna tofu och skär avokado och sötpotatis i avlånga bitar.",
-    "Grilla sötpotatisen i ugnen på 200 grader tills den är mjuk.",
-    "Servera allt i en skål, toppa med picklad rödlök, sesamfrön och pumpafrön."
-  ],
-  "sides": ["Mathavre"],
-  "pantry": ["Sojasås", "Olivolja", "Balsamico", "Salt", "Sesamfrön", "Svartpeppar"]
+	"title": "Sötpotatisbowl",
+	"ingredients": [
+		{
+			"name": "Marinerad tofu",
+			"quantity": 230,
+			"unit": "g"
+		},
+		{
+			"name": "Sötpotatis",
+			"quantity": 1,
+			"unit": "st"
+		},
+		{
+			"name": "Mathavre",
+			"quantity": 4,
+			"unit": "dl"
+		},
+		{
+			"name": "Grönkål",
+			"quantity": 400,
+			"unit": "g"
+		},
+		{
+			"name": "Avokado",
+			"quantity": 2,
+			"unit": "st"
+		},
+		{
+			"name": "Picklad rödlök",
+			"quantity": 1,
+			"unit": "dl"
+		},
+		{
+			"name": "Pumpafrön",
+			"quantity": 0.5,
+			"unit": "dl"
+		}
+	],
+	"instructions": [
+		"Koka mathavre enligt instruktionerna på förpackningen.",
+		"Tärna tofu och skär avokado och sötpotatis i avlånga bitar.",
+		"Grilla sötpotatisen i ugnen på 200 grader tills den är mjuk.",
+		"Servera allt i en skål, toppa med picklad rödlök, sesamfrön och pumpafrön."
+	],
+	"sides": [],
+	"pantry": [
+		"Mathavre",
+		"Sojasås",
+		"Olivolja",
+		"Balsamico",
+		"Salt",
+		"Sesamfrön",
+		"Svartpeppar"
+	]
 }

@@ -1,48 +1,54 @@
 {
-  "title": "Mexicali",
-  "ingredients": [
-    {
-      "name": "Pulled oumph",
-      "quantity": 280,
-      "unit": "g"
-    },
-    {
-      "name": "Picklad rödlök",
-      "quantity": 1,
-      "unit": "dl"
-    },
-    {
-      "name": "Avokado",
-      "quantity": 1,
-      "unit": "st"
-    },
-    {
-      "name": "Broccoli",
-      "quantity": 200,
-      "unit": "g"
-    },
-    {
-      "name": "Mango",
-      "quantity": 100,
-      "unit": "g"
-    },
-    {
-      "name": "Majschips",
-      "quantity": 0.5,
-      "unit": "förp"
-    },
-    {
-      "name": "Sallad",
-      "quantity": 1,
-      "unit": "st"
-    },
-    {
-      "name": "Lime",
-      "quantity": 1,
-      "unit": "st"
-    }
-  ],
-  "instructions": ["TODO"],
-  "sides": [],
-  "pantry": ["Svartris"]
+	"title": "Mexicali",
+	"ingredients": [
+		{
+			"name": "Pulled oumph",
+			"quantity": 280,
+			"unit": "g"
+		},
+		{
+			"name": "Picklad rödlök",
+			"quantity": 1,
+			"unit": "dl"
+		},
+		{
+			"name": "Avokado",
+			"quantity": 1,
+			"unit": "st"
+		},
+		{
+			"name": "Broccoli",
+			"quantity": 200,
+			"unit": "g"
+		},
+		{
+			"name": "Mango",
+			"quantity": 100,
+			"unit": "g"
+		},
+		{
+			"name": "Majschips",
+			"quantity": 0.5,
+			"unit": "förp"
+		},
+		{
+			"name": "Romansallad",
+			"quantity": 0.5,
+			"unit": "st"
+		},
+		{
+			"name": "Lime",
+			"quantity": 1,
+			"unit": "st"
+		}
+	],
+	"instructions": [
+		"(Valfritt) Salta och olja padrons; grilla dem i ugnen under tiden övriga ingredienser förbereds.",
+		"Koka svartris enligt instruktionerna på förpackningen.",
+		"Dela broccoli i lagom stora bitar och ångkoka.",
+		"Stek oumph. Skölj och grovhacka sallad. Dela lime i klyftor.",
+		"Lägg upp allt på tallrikar och servera."
+	],
+	"sides": ["Pimientos de padrons"],
+	"pantry": ["Svartris"]
 }
