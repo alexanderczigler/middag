@@ -23,7 +23,7 @@
 
 <h1>Veckohandling</h1>
 
-<h2>Recept</h2>
+<h2>Ingredienser</h2>
 {#if ingredients.length > 0}
   <ul class="shopping-list">
     {#each ingredients as { name, quantity, unit } (name)}
