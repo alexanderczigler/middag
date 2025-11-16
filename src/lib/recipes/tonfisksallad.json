@@ -53,8 +53,8 @@
 		},
 		{
 			"name": "Pasta",
-			"quantity": 2,
-			"unit": "nävar"
+			"quantity": 200,
+			"unit": "g"
 		}
 	],
 	"instructions": [
