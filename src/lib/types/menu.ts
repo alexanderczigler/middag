@@ -1,5 +1,5 @@
-import type { Recipes } from './recipes';
+import type { Recipe } from './recipes'
 
 export type Menu = {
-  [date: string]: Recipes;
-};
+  [date: string]: Recipe[]
+}
