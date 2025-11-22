@@ -12,7 +12,7 @@ const files = readdirSync(recipesDir)
 // Generera union-typen
 const typeFileContent = `// This file is auto-generated. Do not edit manually.
 
-export type Recipes = ${files.map((name) => `'${name}'`).join(' | ')};
+export type Recipe = ${files.map((name) => `'${name}'`).join(' | ')};
 `;
 
 // Skriv ut resultatet till en TypeScript-fil
