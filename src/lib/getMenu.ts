@@ -1,11 +1,11 @@
 import type { Menu } from './types/menu'
 
 const MENU: Menu = {
-  '2025-11-23': 'mapu-tofu',
+  '2025-11-23': 'sötpotatisbowl',
   '2025-11-24': 'chana-daal',
   '2025-11-25': 'mexicali',
   '2025-11-26': 'ugnsbakad-lax',
-  '2025-11-27': 'sötpotatisbowl',
+  '2025-11-27': 'mapu-tofu',
   '2025-11-28': 'currykyckling'
 }
 
