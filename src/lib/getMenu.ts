@@ -1,12 +1,12 @@
 import type { Menu } from './types/menu'
 
 const MENU: Menu = {
-  '2025-12-07': 'halloumi-potatis-tzatziki',
-  '2025-12-08': 'currykyckling',
-  '2025-12-09': 'ugnsbakad-lax',
-  '2025-12-10': 'mexicali',
-  '2025-12-11': 'chana-daal',
-  '2025-12-12': 'svamprisotto'
+  '2025-12-14': 'chana-daal',
+  '2025-12-15': 'laxinoa',
+  '2025-12-16': 'sötpotatisbowl',
+  '2025-12-17': 'ugnsbakad-lax',
+  '2025-12-18': 'gnocchi-köttfärssås',
+  '2025-12-19': 'halloumi-potatis-tzatziki'
 }
 
 export function getMenu(from?: string): Menu {
