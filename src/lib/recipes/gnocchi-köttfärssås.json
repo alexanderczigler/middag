@@ -1,71 +1,71 @@
 {
-	"title": "Pasta med tomatsås",
-	"ingredients": [
-		{
-			"name": "Gnocchi",
-			"quantity": 500,
-			"unit": "g"
-		},
-		{
-			"name": "lök",
-			"quantity": 1,
-			"unit": "st"
-		},
-		{
-			"name": "vitlök",
-			"quantity": 2,
-			"unit": "klyftor"
-		},
-		{
-			"name": "Nötfärs",
-			"quantity": 500,
-			"unit": "g"
-		},
-		{
-			"name": "krossade tomater",
-			"quantity": 800,
-			"unit": "g"
-		},
-		{
-			"name": "basilika",
-			"quantity": 0.5,
-			"unit": "kruka"
-		},
-		{
-			"name": "Morot",
-			"quantity": 2,
-			"unit": "st"
-		},
-		{
-			"name": "Selleri",
-			"quantity": 2,
-			"unit": "st"
-		}
-	],
-	"pantry": [
-		"Salt",
-		"Svartpeppar",
-		"Timjan",
-		"Rosmarin",
-		"Oregano",
-		"Olivolja",
-		"Romansallad",
-		"Rödlök",
-		"Olivolja",
-		"Balsamico",
-		"Gurka",
-		"Tomat"
-	],
-	"sides": [],
-	"instructions": [
-		"Finhacka lök, vitlök, morot och selleristjälkar.",
-		"Fräs allt i olivolja tills morötterna börjar mjukna.",
-		"Tillsätt färs och stek under omröring.",
-		"Tillsätt krossade tomater och örter.",
-		"Låt såsen puttra minst 10 minuter.",
-		"Koka gnocchin enligt anvisningarna på förpackningen.",
-		"Finhacka rödlök, tomat, gurka och sallad. Blanda och kondera med salt, svartpeppar, olivolja och balsamico.",
-		"Smaka av med salt och svartpeppar.",
-		"Servera köttfärssås med gnocchi."
-	]
+  "title": "Pasta med tomatsås",
+  "ingredients": [
+    {
+      "name": "Gnocchi",
+      "quantity": 500,
+      "unit": "g"
+    },
+    {
+      "name": "lök",
+      "quantity": 1,
+      "unit": "st"
+    },
+    {
+      "name": "vitlök",
+      "quantity": 2,
+      "unit": "klyftor"
+    },
+    {
+      "name": "Nötfärs",
+      "quantity": 500,
+      "unit": "g"
+    },
+    {
+      "name": "krossade tomater",
+      "quantity": 800,
+      "unit": "g"
+    },
+    {
+      "name": "basilika",
+      "quantity": 0.5,
+      "unit": "kruka"
+    },
+    {
+      "name": "Morot",
+      "quantity": 2,
+      "unit": "st"
+    },
+    {
+      "name": "Selleri",
+      "quantity": 2,
+      "unit": "st"
+    }
+  ],
+  "pantry": [
+    "Salt",
+    "Svartpeppar",
+    "Timjan",
+    "Rosmarin",
+    "Oregano",
+    "Olivolja",
+    "Romansallad",
+    "Rödlök",
+    "Olivolja",
+    "Balsamico",
+    "Gurka",
+    "Tomat"
+  ],
+  "sides": [],
+  "instructions": [
+    "Finhacka lök, vitlök, morot och selleristjälkar.",
+    "Fräs allt i olivolja tills morötterna börjar mjukna.",
+    "Tillsätt färs och stek under omröring.",
+    "Tillsätt krossade tomater och örter.",
+    "Låt såsen puttra minst 10 minuter.",
+    "Koka gnocchin enligt anvisningarna på förpackningen.",
+    "Finhacka rödlök, tomat, gurka och sallad. Blanda och kondera med salt, svartpeppar, olivolja och balsamico.",
+    "Smaka av med salt och svartpeppar.",
+    "Servera köttfärssås med gnocchi."
+  ]
 }

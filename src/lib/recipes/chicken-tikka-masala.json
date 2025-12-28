@@ -1,40 +1,40 @@
 {
-	"ingredients": [
-		{
-			"name": "Kryddmix Tikka Masala",
-			"quantity": 1,
-			"unit": "förp"
-		},
-		{
-			"name": "Kycklingfilé",
-			"quantity": 500,
-			"unit": "g"
-		},
-		{
-			"name": "Crème fraiche",
-			"quantity": 2,
-			"unit": "dl"
-		},
-		{
-			"name": "Youghurt",
-			"quantity": 2,
-			"unit": "dl"
-		},
-		{
-			"name": "Kryddmix Raita",
-			"quantity": 1,
-			"unit": "förp"
-		}
-	],
-	"instructions": [
-		"Koka ris.",
-		"Fräs kycklingen i smör eller neutral olja tills den börjar bli klar.",
-		"Tillsätt kryddmixen och 1 dl vatten, rör runt och stek ett par minuter till.",
-		"Blanda i crème fraiche, rör runt och stek några minuter till.",
-		"Blanda youghurt med raita-kryddmix.",
-		"Servera med ris och raita."
-	],
-	"title": "Chicken Tikka Masala",
-	"sides": ["Naan"],
-	"pantry": ["Ris"]
+  "ingredients": [
+    {
+      "name": "Kryddmix Tikka Masala",
+      "quantity": 1,
+      "unit": "förp"
+    },
+    {
+      "name": "Kycklingfilé",
+      "quantity": 500,
+      "unit": "g"
+    },
+    {
+      "name": "Crème fraiche",
+      "quantity": 2,
+      "unit": "dl"
+    },
+    {
+      "name": "Youghurt",
+      "quantity": 2,
+      "unit": "dl"
+    },
+    {
+      "name": "Kryddmix Raita",
+      "quantity": 1,
+      "unit": "förp"
+    }
+  ],
+  "instructions": [
+    "Koka ris.",
+    "Fräs kycklingen i smör eller neutral olja tills den börjar bli klar.",
+    "Tillsätt kryddmixen och 1 dl vatten, rör runt och stek ett par minuter till.",
+    "Blanda i crème fraiche, rör runt och stek några minuter till.",
+    "Blanda youghurt med raita-kryddmix.",
+    "Servera med ris och raita."
+  ],
+  "title": "Chicken Tikka Masala",
+  "sides": ["Naan"],
+  "pantry": ["Ris"]
 }

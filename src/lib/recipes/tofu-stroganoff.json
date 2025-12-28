@@ -1,55 +1,55 @@
 {
-	"ingredients": [
-		{
-			"name": "Alspånsrökt tofu (230 g)",
-			"quantity": 2,
-			"unit": "förp"
-		},
-		{
-			"name": "Röd paprika",
-			"quantity": 1,
-			"unit": "st"
-		},
-		{
-			"name": "Grädde",
-			"quantity": 2.5,
-			"unit": "dl"
-		},
-		{
-			"name": "Lök",
-			"quantity": 1,
-			"unit": "st"
-		},
-		{
-			"name": "Vitlök",
-			"quantity": 1,
-			"unit": "klyftor"
-		},
-		{
-			"name": "Saltgurka",
-			"quantity": 2,
-			"unit": "st"
-		}
-	],
-	"instructions": [
-		"Förbered ris.",
-		"Skiva tofun i 1,5 cm tjocka stavar. Hacka löken och finhacka vitlöken. Skär sedan paprikan i mindre bitar.",
-		"Fräs lök och vitlök i olivolja tills de är mjuka.",
-		"Sänk värmen något och tillsätt 1 msk olja och blanda i vetemjöl. Rör om väl.",
-		"Lägg i paprikan i pannan. Tillsätt sedan grädden, tomatpuré, sojasås och paprikapulver. Låt puttra på låg värme en stund och smaka av med salt och peppar.",
-		"Tärna saltgurka och lägg till i pannan.",
-		"Servera med ris och persilja."
-	],
-	"title": "Tofu Stroganoff",
-	"sides": [],
-	"pantry": [
-		"ris",
-		"olivolja",
-		"vetemjöl",
-		"tomatpuré",
-		"sojasås",
-		"paprikapulver",
-		"salt",
-		"peppar"
-	]
+  "ingredients": [
+    {
+      "name": "Alspånsrökt tofu (230 g)",
+      "quantity": 2,
+      "unit": "förp"
+    },
+    {
+      "name": "Röd paprika",
+      "quantity": 1,
+      "unit": "st"
+    },
+    {
+      "name": "Grädde",
+      "quantity": 2.5,
+      "unit": "dl"
+    },
+    {
+      "name": "Lök",
+      "quantity": 1,
+      "unit": "st"
+    },
+    {
+      "name": "Vitlök",
+      "quantity": 1,
+      "unit": "klyftor"
+    },
+    {
+      "name": "Saltgurka",
+      "quantity": 2,
+      "unit": "st"
+    }
+  ],
+  "instructions": [
+    "Förbered ris.",
+    "Skiva tofun i 1,5 cm tjocka stavar. Hacka löken och finhacka vitlöken. Skär sedan paprikan i mindre bitar.",
+    "Fräs lök och vitlök i olivolja tills de är mjuka.",
+    "Sänk värmen något och tillsätt 1 msk olja och blanda i vetemjöl. Rör om väl.",
+    "Lägg i paprikan i pannan. Tillsätt sedan grädden, tomatpuré, sojasås och paprikapulver. Låt puttra på låg värme en stund och smaka av med salt och peppar.",
+    "Tärna saltgurka och lägg till i pannan.",
+    "Servera med ris och persilja."
+  ],
+  "title": "Tofu Stroganoff",
+  "sides": [],
+  "pantry": [
+    "ris",
+    "olivolja",
+    "vetemjöl",
+    "tomatpuré",
+    "sojasås",
+    "paprikapulver",
+    "salt",
+    "peppar"
+  ]
 }

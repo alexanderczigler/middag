@@ -1,8 +1,8 @@
 <script lang="ts">
-  import { resolve } from '$app/paths';
-  import type { PageData } from './$types';
+  import { resolve } from '$app/paths'
+  import type { PageData } from './$types'
 
-  export let data: PageData;
+  export let data: PageData
 </script>
 
 <h1>Recept</h1>

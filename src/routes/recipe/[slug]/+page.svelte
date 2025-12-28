@@ -1,8 +1,8 @@
 <script lang="ts">
-  import type { PageData } from './$types';
+  import type { PageData } from './$types'
 
-  export let data: PageData;
-  const { recipe } = data;
+  export let data: PageData
+  const { recipe } = data
 </script>
 
 <h1>{recipe.title}</h1>

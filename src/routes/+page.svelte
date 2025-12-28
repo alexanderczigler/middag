@@ -1,21 +1,21 @@
 <script lang="ts">
-  import { resolve } from '$app/paths';
-  import type { Recipe } from '$lib/types/recipe';
-  import type { PageData } from './$types';
+  import { resolve } from '$app/paths'
+  import type { Recipe } from '$lib/types/recipe'
+  import type { PageData } from './$types'
 
-  export let data: PageData;
+  export let data: PageData
 
-  const today = new Date().toISOString().split('T')[0];
+  const today = new Date().toISOString().split('T')[0]
 
   const upcomingRecipes = Object.entries(data.menu)
     .map(([date, slug]) => {
-      const recipe = data.recipes.find((recipe: Recipe) => recipe.slug === slug);
-      return { date, recipe };
+      const recipe = data.recipes.find((recipe: Recipe) => recipe.slug === slug)
+      return { date, recipe }
     })
-    .filter((item) => item.recipe);
+    .filter((item) => item.recipe)
 
-  const todayRecipe = upcomingRecipes.find((item) => item.date === today);
-  const otherRecipes = upcomingRecipes;
+  const todayRecipe = upcomingRecipes.find((item) => item.date === today)
+  const otherRecipes = upcomingRecipes
 </script>
 
 <h1>Meny</h1>

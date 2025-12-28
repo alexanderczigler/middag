@@ -1,7 +1,7 @@
-import type { Unit } from './unit';
+import type { Unit } from './unit'
 
 export type Ingredient = {
-  name: string;
-  quantity: number;
-  unit: Unit;
-};
+  name: string
+  quantity: number
+  unit: Unit
+}

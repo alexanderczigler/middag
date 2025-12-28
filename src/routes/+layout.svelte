@@ -1,12 +1,12 @@
 <script lang="ts">
-  import { resolve } from '$app/paths';
-  import { page } from '$app/stores';
+  import { resolve } from '$app/paths'
+  import { page } from '$app/stores'
 
-  import '@fontsource/nunito/400.css';
-  import '@fontsource/nunito/700.css'; // for font-bold
-  import '../app.css';
+  import '@fontsource/nunito/400.css'
+  import '@fontsource/nunito/700.css' // for font-bold
+  import '../app.css'
 
-  const { children } = $props();
+  const { children } = $props()
 </script>
 
 <main>
