@@ -1,10 +1,14 @@
 import type { Menu } from './types/menu'
 
 const MENU: Menu = {
-  '2026-01-04': 'spenat-och-fetaostpaj',
-  '2026-01-05': 'spenat-och-fetaostpaj',
-  '2026-01-07': 'currykyckling',
-  '2026-01-08': 'laxokado'
+  '2026-01-17': 'currykyckling',
+  '2026-01-18': 'laxokado',
+  '2026-01-19': 'chana-daal',
+  '2026-01-20': 'gnocchi-köttfärssås',
+  '2026-01-21': 'mexicali',
+  '2026-01-22': 'halloumi-potatis-tzatziki',
+  '2026-01-23': 'tacokväll',
+  '2026-01-24': 'tofu-stroganoff'
 }
 
 export function getMenu(from?: string): Menu {
