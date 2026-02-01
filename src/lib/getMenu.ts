@@ -8,6 +8,8 @@ const MENU: Menu = {
   '2026-02-06': 'spenat-och-fetaostpaj'
 }
 
+// TODO: Next week, add the chicken thai wok!
+
 export function getMenu(from?: string): Menu {
   if (from) {
     const fromDate = new Date(from)
