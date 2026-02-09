@@ -3,8 +3,8 @@ import type { Menu } from './types/menu'
 const MENU: Menu = {
   '2026-02-10': 'thaiwok-kyckling',
   '2026-02-11': 'mexicali',
-  '2026-02-12': 'laxinoa',
-  '2026-02-13': 'ugnsbakad-lax',
+  '2026-02-12': 'pokebowl',
+  '2026-02-13': 'chana-daal',
   '2026-02-14': 'krämig-lax'
 }
 
