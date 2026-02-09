@@ -1,5 +1,10 @@
 {
   "name": "middag",
+  "author": {
+    "name": "Alexander Czigler",
+    "url": "https://alexanderczigler.se/"
+  },
+  "license": "ISC",
   "version": "0.0.1",
   "type": "module",
   "scripts": {
@@ -44,8 +49,6 @@
     "recipe collection",
     "shopping list generator"
   ],
-  "author": "Alexander Czigler",
-  "license": "ISC",
   "dependencies": {
     "@fontsource/nunito": "5.2.7"
   },
