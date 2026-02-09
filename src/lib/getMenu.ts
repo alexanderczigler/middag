@@ -5,7 +5,8 @@ const MENU: Menu = {
   '2026-02-11': 'mexicali',
   '2026-02-12': 'pokebowl',
   '2026-02-13': 'chana-daal',
-  '2026-02-14': 'krämig-lax'
+  '2026-02-14': 'krämig-lax',
+  '2026-02-15': 'chicken-tikka-masala'
 }
 
 export function getMenu(from?: string): Menu {
