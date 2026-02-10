@@ -29,6 +29,11 @@
       "name": "Chicken thai wok kryddmix",
       "quantity": 1,
       "unit": "st"
+    },
+    {
+      "name": "Vattenkastanjer",
+      "quantity": 1,
+      "unit": "pkt"
     }
   ],
   "instructions": [
