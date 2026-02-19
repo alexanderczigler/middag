@@ -50,6 +50,7 @@
 
   li {
     margin: 0.5em 0;
+    text-transform: capitalize;
   }
 
   ol {
