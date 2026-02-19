@@ -1,12 +1,12 @@
 import type { Menu } from './types/menu'
 
 const MENU: Menu = {
-  '2026-02-10': 'thaiwok-kyckling',
-  '2026-02-11': 'mexicali',
-  '2026-02-12': 'pokebowl',
-  '2026-02-13': 'chana-daal',
-  '2026-02-14': 'krämig-lax',
-  '2026-02-15': 'chicken-tikka-masala'
+  '2026-02-20': 'pokebowl',
+  '2026-02-21': 'ugnsbakad-lax',
+  '2026-02-22': 'thaiwok-kyckling',
+  '2026-02-23': 'mexicali',
+  '2026-02-24': 'tofu-stroganoff',
+  '2026-02-25': 'chana-daal'
 }
 
 export function getMenu(from?: string): Menu {
