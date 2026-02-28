@@ -12,16 +12,15 @@ export async function load({ url }): Promise<{
   const from: string = url.searchParams.get('from') || ''
   const menu = await getMenu(from)
   const recipes = await getRecipes()
-  const plannedRecipeSlugs = Object.values(menu)
-  const plannedRecipes = recipes.filter((recipe) =>
-    plannedRecipeSlugs.find((slug) => slug === recipe.slug)
-  )
+  const plannedRecipeSlugs = Object.values(menu).flat()
 
   const ingredients: Ingredient[] = []
   const pantry: string[] = []
   const sides: string[] = []
 
-  for (const recipe of plannedRecipes) {
+  for (const slug of plannedRecipeSlugs) {
+    const recipe = recipes.find((r) => r.slug === slug)
+    if (!recipe) continue
     for (const { name, quantity, unit } of recipe.ingredients) {
       const existingIngredient = ingredients.find(
         (item) => item.name.toLowerCase() === name.toLowerCase() && item.unit === unit

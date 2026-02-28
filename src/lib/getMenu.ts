@@ -1,12 +1,8 @@
 import type { Menu } from './types/menu'
 
 const MENU: Menu = {
-  '2026-02-20': 'pokebowl',
-  '2026-02-21': 'ugnsbakad-lax',
-  '2026-02-22': 'thaiwok-kyckling',
-  '2026-02-23': 'mexicali',
-  '2026-02-24': 'tofu-stroganoff',
-  '2026-02-25': 'chana-daal'
+  '2026-03-01': ['currykyckling', 'currykyckling', 'ugnsbakad-lax'],
+  '2026-03-02': ['ugnsbakad-lax']
 }
 
 export function getMenu(from?: string): Menu {
