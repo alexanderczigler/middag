@@ -3,6 +3,7 @@
 :root {
   --font-sans: 'Nunito', sans-serif;
   --background-color: #f5f5f5;
+  --nav-bg-color: #efefef;
   --text-color: #000000;
   --text-meta-color: rgba(0, 77, 128, 0.6);
   --h1-color: #004d80;
@@ -10,6 +11,22 @@
   --h3-color: #327099;
   --link-color: #004d80;
   --link-hover-color: #002e4d;
+  --counter-color: lightblue;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-color: #0f1117;
+    --nav-bg-color: #1a1d27;
+    --text-color: #e2e8f0;
+    --text-meta-color: rgba(147, 197, 253, 0.7);
+    --h1-color: #7dd3fc;
+    --h2-color: #93c5fd;
+    --h3-color: #a5b4fc;
+    --link-color: #60a5fa;
+    --link-hover-color: #93c5fd;
+    --counter-color: #0369a1;
+  }
 }
 
 body {

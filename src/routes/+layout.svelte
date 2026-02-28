@@ -40,7 +40,7 @@
     justify-content: space-evenly;
     align-items: baseline;
     align-content: stretch;
-    background-color: #efefef;
+    background-color: var(--nav-bg-color);
 
     @apply m-0;
   }

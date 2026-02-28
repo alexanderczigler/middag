@@ -75,7 +75,7 @@
   ol li:before {
     margin-right: 10px;
     content: counter(item);
-    background: lightblue;
+    background: var(--counter-color);
     border-radius: 100%;
     color: white;
     width: 1.2em;
