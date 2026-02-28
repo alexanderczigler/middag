@@ -53,6 +53,12 @@
     text-transform: capitalize;
   }
 
+  ul li::before {
+    content: '›';
+    margin-right: 0.4em;
+    opacity: 0.4;
+  }
+
   .quantity-unit {
     text-transform: none;
   }
