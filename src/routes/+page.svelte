@@ -34,7 +34,10 @@
   <p>
     Dagens:
     {#each todayRecipes.recipes as { recipe, count }, i (recipe.slug)}
-      {#if i > 0}, {/if}<a href={resolve(`/recipe/${recipe.slug}`)}>{recipe.title}</a>{#if count > 1} ({count}x){/if}
+      {#if i > 0},
+      {/if}<a href={resolve(`/recipe/${recipe.slug}`)}>{recipe.title}</a>
+      {#if count > 1}
+        ({count}x){/if}
     {/each}.
   </p>
 {/if}
@@ -46,7 +49,11 @@
       <strong>{date}</strong>
       <ul>
         {#each recipes as { recipe, count } (recipe.slug)}
-          <li><a href={resolve(`/recipe/${recipe.slug}`)}>{recipe.title}</a>{#if count > 1} ({count}x){/if}</li>
+          <li>
+            <a href={resolve(`/recipe/${recipe.slug}`)}>{recipe.title}</a>
+            {#if count > 1}
+              ({count}x){/if}
+          </li>
         {/each}
       </ul>
     </li>
