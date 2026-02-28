@@ -10,7 +10,7 @@
 <h2>Ingredienser</h2>
 <ul>
   {#each recipe.ingredients as { name, quantity, unit } (name)}
-    <li>{name} ({quantity} {unit})</li>
+    <li>{name} <span class="quantity-unit">({quantity} {unit})</span></li>
   {/each}
 </ul>
 
@@ -51,6 +51,10 @@
   li {
     margin: 0.5em 0;
     text-transform: capitalize;
+  }
+
+  .quantity-unit {
+    text-transform: none;
   }
 
   ol {
