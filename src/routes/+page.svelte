@@ -2,13 +2,14 @@
   import { resolve } from '$app/paths'
   import type { Recipe } from '$lib/types/recipe'
   import type { PageData } from './$types'
+  import { SvelteMap } from 'svelte/reactivity'
 
   export let data: PageData
 
   const today = new Date().toISOString().split('T')[0]
 
   function resolveRecipes(slugs: string[]) {
-    const countMap = new Map<string, number>()
+    const countMap = new SvelteMap<string, number>()
     for (const slug of slugs) {
       countMap.set(slug, (countMap.get(slug) ?? 0) + 1)
     }
